@@ -1,0 +1,920 @@
+digraph g {
+// id = 0, graphName = Formaldehyde
+"0-0" [ shape=ellipse label="Formaldehyde" image="out/077_g_0_11311100.svg" ];
+// id = 1, graphName = Glycolaldehyde
+"1-0" [ shape=ellipse label="Glycolaldehyde" image="out/078_g_1_11311100.svg" ];
+// id = 2, graphName = random1
+"2-0" [ shape=ellipse label="random1" image="out/079_g_2_11311100.svg" ];
+// id = 3, graphName = random2
+"3-0" [ shape=ellipse label="random2" image="out/080_g_3_11311100.svg" ];
+// id = 4, graphName = random3
+"4-0" [ shape=ellipse label="random3" image="out/081_g_4_11311100.svg" ];
+// id = 5, graphName = random4
+"5-0" [ shape=ellipse label="random4" image="out/082_g_5_11311100.svg" ];
+// id = 6, graphName = random5
+"6-0" [ shape=ellipse label="random5" image="out/083_g_6_11311100.svg" ];
+// id = 7, graphName = random6
+"7-0" [ shape=ellipse label="random6" image="out/084_g_7_11311100.svg" ];
+// id = 8, graphName = random7
+"8-0" [ shape=ellipse label="random7" image="out/085_g_8_11311100.svg" ];
+// id = 9, graphName = random8
+"9-0" [ shape=ellipse label="random8" image="out/086_g_9_11311100.svg" ];
+// id = 10, graphName = g_{10}
+"10-0" [ shape=ellipse label="g_{10}" image="out/087_g_10_11311100.svg" ];
+// id = 11, graphName = g_{11}
+"11-0" [ shape=ellipse label="g_{11}" image="out/088_g_11_11311100.svg" ];
+// id = 12, graphName = g_{12}
+"12-0" [ shape=ellipse label="g_{12}" image="out/089_g_12_11311100.svg" ];
+// id = 13, graphName = g_{13}
+"13-0" [ shape=ellipse label="g_{13}" image="out/090_g_13_11311100.svg" ];
+// id = 32, graphName = p_{0,0}
+"32-0" [ shape=ellipse label="p_{0,0}" image="out/092_g_37_11311100.svg" ];
+// id = 34, graphName = p_{0,1}
+"34-0" [ shape=ellipse label="p_{0,1}" image="out/094_g_38_11311100.svg" ];
+// id = 36, graphName = p_{0,2}
+"36-0" [ shape=ellipse label="p_{0,2}" image="out/096_g_39_11311100.svg" ];
+// id = 38, graphName = p_{0,3}
+"38-0" [ shape=ellipse label="p_{0,3}" image="out/098_g_40_11311100.svg" ];
+// id = 40, graphName = p_{0,4}
+"40-0" [ shape=ellipse label="p_{0,4}" image="out/100_g_41_11311100.svg" ];
+// id = 43, graphName = p_{0,5}
+"43-0" [ shape=ellipse label="p_{0,5}" image="out/102_g_43_11311100.svg" ];
+// id = 47, graphName = p_{0,6}
+"47-0" [ shape=ellipse label="p_{0,6}" image="out/104_g_47_11311100.svg" ];
+// id = 49, graphName = p_{0,7}
+"49-0" [ shape=ellipse label="p_{0,7}" image="out/106_g_48_11311100.svg" ];
+// id = 51, graphName = p_{0,8}
+"51-0" [ shape=ellipse label="p_{0,8}" image="out/108_g_49_11311100.svg" ];
+// id = 53, graphName = p_{0,9}
+"53-0" [ shape=ellipse label="p_{0,9}" image="out/110_g_50_11311100.svg" ];
+// id = 55, graphName = p_{0,10}
+"55-0" [ shape=ellipse label="p_{0,10}" image="out/112_g_51_11311100.svg" ];
+// id = 57, graphName = p_{0,11}
+"57-0" [ shape=ellipse label="p_{0,11}" image="out/114_g_52_11311100.svg" ];
+// id = 59, graphName = p_{0,12}
+"59-0" [ shape=ellipse label="p_{0,12}" image="out/116_g_53_11311100.svg" ];
+// id = 63, graphName = p_{0,13}
+"63-0" [ shape=ellipse label="p_{0,13}" image="out/118_g_132_11311100.svg" ];
+// id = 65, graphName = p_{0,14}
+"65-0" [ shape=ellipse label="p_{0,14}" image="out/120_g_133_11311100.svg" ];
+// id = 66, graphName = p_{0,15}
+"66-0" [ shape=ellipse label="p_{0,15}" image="out/122_g_134_11311100.svg" ];
+// id = 68, graphName = p_{0,16}
+"68-0" [ shape=ellipse label="p_{0,16}" image="out/124_g_135_11311100.svg" ];
+// id = 71, graphName = p_{0,17}
+"71-0" [ shape=ellipse label="p_{0,17}" image="out/126_g_145_11311100.svg" ];
+// id = 73, graphName = p_{0,18}
+"73-0" [ shape=ellipse label="p_{0,18}" image="out/128_g_147_11311100.svg" ];
+// id = 75, graphName = p_{0,19}
+"75-0" [ shape=ellipse label="p_{0,19}" image="out/130_g_148_11311100.svg" ];
+// id = 77, graphName = p_{0,20}
+"77-0" [ shape=ellipse label="p_{0,20}" image="out/132_g_149_11311100.svg" ];
+// id = 79, graphName = p_{0,21}
+"79-0" [ shape=ellipse label="p_{0,21}" image="out/134_g_150_11311100.svg" ];
+// id = 81, graphName = p_{0,22}
+"81-0" [ shape=ellipse label="p_{0,22}" image="out/136_g_152_11311100.svg" ];
+// id = 83, graphName = p_{0,23}
+"83-0" [ shape=ellipse label="p_{0,23}" image="out/138_g_153_11311100.svg" ];
+// id = 85, graphName = p_{0,24}
+"85-0" [ shape=ellipse label="p_{0,24}" image="out/140_g_155_11311100.svg" ];
+// id = 91, graphName = p_{0,25}
+"91-0" [ shape=ellipse label="p_{0,25}" image="out/142_g_235_11311100.svg" ];
+// id = 93, graphName = p_{0,26}
+"93-0" [ shape=ellipse label="p_{0,26}" image="out/144_g_345_11311100.svg" ];
+// id = 95, graphName = p_{0,27}
+"95-0" [ shape=ellipse label="p_{0,27}" image="out/146_g_346_11311100.svg" ];
+// id = 97, graphName = p_{0,28}
+"97-0" [ shape=ellipse label="p_{0,28}" image="out/148_g_350_11311100.svg" ];
+// id = 99, graphName = p_{0,29}
+"99-0" [ shape=ellipse label="p_{0,29}" image="out/150_g_351_11311100.svg" ];
+// id = 105, graphName = p_{0,30}
+"105-0" [ shape=ellipse label="p_{0,30}" image="out/152_g_361_11311100.svg" ];
+// id = 107, graphName = p_{0,31}
+"107-0" [ shape=ellipse label="p_{0,31}" image="out/154_g_362_11311100.svg" ];
+// id = 109, graphName = p_{0,32}
+"109-0" [ shape=ellipse label="p_{0,32}" image="out/156_g_365_11311100.svg" ];
+// id = 113, graphName = p_{0,33}
+"113-0" [ shape=ellipse label="p_{0,33}" image="out/158_g_373_11311100.svg" ];
+// id = 116, graphName = p_{0,34}
+"116-0" [ shape=ellipse label="p_{0,34}" image="out/160_g_376_11311100.svg" ];
+// id = 119, graphName = p_{0,35}
+"119-0" [ shape=ellipse label="p_{0,35}" image="out/162_g_380_11311100.svg" ];
+// id = 121, graphName = p_{0,36}
+"121-0" [ shape=ellipse label="p_{0,36}" image="out/164_g_381_11311100.svg" ];
+// id = 123, graphName = p_{0,37}
+"123-0" [ shape=ellipse label="p_{0,37}" image="out/166_g_382_11311100.svg" ];
+// id = 125, graphName = p_{0,38}
+"125-0" [ shape=ellipse label="p_{0,38}" image="out/168_g_383_11311100.svg" ];
+// id = 127, graphName = p_{0,39}
+"127-0" [ shape=ellipse label="p_{0,39}" image="out/170_g_384_11311100.svg" ];
+// id = 129, graphName = p_{0,40}
+"129-0" [ shape=ellipse label="p_{0,40}" image="out/172_g_385_11311100.svg" ];
+// id = 131, graphName = p_{0,41}
+"131-0" [ shape=ellipse label="p_{0,41}" image="out/174_g_386_11311100.svg" ];
+// id = 134, graphName = p_{0,42}
+"134-0" [ shape=ellipse label="p_{0,42}" image="out/176_g_392_11311100.svg" ];
+// id = 137, graphName = p_{0,43}
+"137-0" [ shape=ellipse label="p_{0,43}" image="out/178_g_395_11311100.svg" ];
+// id = 153, graphName = p_{0,44}
+"153-0" [ shape=ellipse label="p_{0,44}" image="out/180_g_458_11311100.svg" ];
+// id = 156, graphName = p_{0,45}
+"156-0" [ shape=ellipse label="p_{0,45}" image="out/182_g_460_11311100.svg" ];
+// id = 159, graphName = p_{0,46}
+"159-0" [ shape=ellipse label="p_{0,46}" image="out/184_g_463_11311100.svg" ];
+// id = 163, graphName = p_{0,47}
+"163-0" [ shape=ellipse label="p_{0,47}" image="out/186_g_468_11311100.svg" ];
+// id = 165, graphName = p_{0,48}
+"165-0" [ shape=ellipse label="p_{0,48}" image="out/188_g_469_11311100.svg" ];
+// id = 167, graphName = p_{0,49}
+"167-0" [ shape=ellipse label="p_{0,49}" image="out/190_g_471_11311100.svg" ];
+// id = 172, graphName = p_{0,50}
+"172-0" [ shape=ellipse label="p_{0,50}" image="out/192_g_476_11311100.svg" ];
+// id = 174, graphName = p_{0,51}
+"174-0" [ shape=ellipse label="p_{0,51}" image="out/194_g_477_11311100.svg" ];
+// id = 181, graphName = p_{0,52}
+"181-0" [ shape=ellipse label="p_{0,52}" image="out/196_g_484_11311100.svg" ];
+// id = 201, graphName = p_{0,53}
+"201-0" [ shape=ellipse label="p_{0,53}" image="out/198_g_629_11311100.svg" ];
+// id = 207, graphName = p_{0,54}
+"207-0" [ shape=ellipse label="p_{0,54}" image="out/200_g_1245_11311100.svg" ];
+// id = 209, graphName = p_{0,55}
+"209-0" [ shape=ellipse label="p_{0,55}" image="out/202_g_1257_11311100.svg" ];
+// id = 211, graphName = p_{0,56}
+"211-0" [ shape=ellipse label="p_{0,56}" image="out/204_g_1258_11311100.svg" ];
+// id = 33{ 'Formaldehyde' 'random3' }, 'Aldol Addition ->', { 'p_{0,0}' }
+"33-0" [ shape=box label="r_{2}" ];
+// id = 35{ 'Formaldehyde' 'random3' }, 'Aldol Addition ->', { 'p_{0,1}' }
+"35-0" [ shape=box label="r_{2}" ];
+// id = 37{ 'Formaldehyde' 'random4' }, 'Aldol Addition ->', { 'p_{0,2}' }
+"37-0" [ shape=box label="r_{2}" ];
+// id = 39{ 'Formaldehyde' 'random4' }, 'Aldol Addition ->', { 'p_{0,3}' }
+"39-0" [ shape=box label="r_{2}" ];
+// id = 41{ 'Formaldehyde' 'random7' }, 'Aldol Addition ->', { 'p_{0,4}' }
+"41-0" [ shape=box label="r_{2}" ];
+// id = 42{ 'Formaldehyde' 'random7' }, 'Aldol Addition ->', { 'p_{0,1}' }
+"42-0" [ shape=box label="r_{2}" ];
+// id = 44{ 'Formaldehyde' 'g_{11}' }, 'Aldol Addition ->', { 'p_{0,5}' }
+"44-0" [ shape=box label="r_{2}" ];
+// id = 45{ 'Formaldehyde' 'g_{11}' }, 'Aldol Addition ->', { 'random1' }
+"45-0" [ shape=box label="r_{2}" ];
+// id = 46{ 'Formaldehyde' 'g_{13}' }, 'Aldol Addition ->', { 'random8' }
+"46-0" [ shape=box label="r_{2}" ];
+// id = 48{ 'Glycolaldehyde' 'random3' }, 'Aldol Addition ->', { 'p_{0,6}' }
+"48-0" [ shape=box label="r_{2}" ];
+// id = 50{ 'Glycolaldehyde' 'random3' }, 'Aldol Addition ->', { 'p_{0,7}' }
+"50-0" [ shape=box label="r_{2}" ];
+// id = 52{ 'Glycolaldehyde' 'random4' }, 'Aldol Addition ->', { 'p_{0,8}' }
+"52-0" [ shape=box label="r_{2}" ];
+// id = 54{ 'Glycolaldehyde' 'random4' }, 'Aldol Addition ->', { 'p_{0,9}' }
+"54-0" [ shape=box label="r_{2}" ];
+// id = 56{ 'Glycolaldehyde' 'random7' }, 'Aldol Addition ->', { 'p_{0,10}' }
+"56-0" [ shape=box label="r_{2}" ];
+// id = 58{ 'Glycolaldehyde' 'random7' }, 'Aldol Addition ->', { 'p_{0,11}' }
+"58-0" [ shape=box label="r_{2}" ];
+// id = 60{ 'Glycolaldehyde' 'g_{11}' }, 'Aldol Addition ->', { 'p_{0,12}' }
+"60-0" [ shape=box label="r_{2}" ];
+// id = 61{ 'Glycolaldehyde' 'g_{11}' }, 'Aldol Addition ->', { 'p_{0,3}' }
+"61-0" [ shape=box label="r_{2}" ];
+// id = 62{ 'Glycolaldehyde' 'g_{13}' }, 'Aldol Addition ->', { 'p_{0,0}' }
+"62-0" [ shape=box label="r_{2}" ];
+// id = 64{ 'random2' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'p_{0,13}' }
+"64-0" [ shape=box label="r_{3}" ];
+// id = 67{ 'random5' }, 'Aldol Addition <-', { 'p_{0,14}' 'p_{0,15}' }
+"67-0" [ shape=box label="r_{3}" ];
+// id = 69{ 'random6' }, 'Aldol Addition <-', { 'p_{0,15}' 'p_{0,16}' }
+"69-0" [ shape=box label="r_{3}" ];
+// id = 70{ 'g_{10}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'p_{0,15}' }
+"70-0" [ shape=box label="r_{3}" ];
+// id = 92{ 'p_{0,5}' 'p_{0,15}' }, 'Aldol Addition ->', { 'p_{0,25}' }
+"92-0" [ shape=box label="r_{2}" ];
+// id = 94{ 'p_{0,13}' 'p_{0,14}' }, 'Aldol Addition ->', { 'p_{0,26}' }
+"94-0" [ shape=box label="r_{2}" ];
+// id = 96{ 'p_{0,13}' 'p_{0,16}' }, 'Aldol Addition ->', { 'p_{0,27}' }
+"96-0" [ shape=box label="r_{2}" ];
+// id = 98{ 'g_{12}' 'p_{0,13}' }, 'Aldol Addition ->', { 'p_{0,28}' }
+"98-0" [ shape=box label="r_{2}" ];
+// id = 100{ 'g_{10}' 'p_{0,13}' }, 'Aldol Addition ->', { 'p_{0,29}' }
+"100-0" [ shape=box label="r_{2}" ];
+// id = 101{ 'Formaldehyde' 'p_{0,13}' }, 'Aldol Addition ->', { 'g_{12}' }
+"101-0" [ shape=box label="r_{2}" ];
+// id = 102{ 'Glycolaldehyde' 'p_{0,13}' }, 'Aldol Addition ->', { 'random2' }
+"102-0" [ shape=box label="r_{2}" ];
+// id = 103{ 'p_{0,13}' 'p_{0,14}' }, 'Aldol Addition ->', { 'p_{0,2}' }
+"103-0" [ shape=box label="r_{2}" ];
+// id = 104{ 'p_{0,13}' 'p_{0,16}' }, 'Aldol Addition ->', { 'p_{0,4}' }
+"104-0" [ shape=box label="r_{2}" ];
+// id = 106{ 'g_{12}' 'p_{0,13}' }, 'Aldol Addition ->', { 'p_{0,30}' }
+"106-0" [ shape=box label="r_{2}" ];
+// id = 108{ 'g_{10}' 'p_{0,13}' }, 'Aldol Addition ->', { 'p_{0,31}' }
+"108-0" [ shape=box label="r_{2}" ];
+// id = 110{ 'Formaldehyde' 'p_{0,13}' }, 'Aldol Addition ->', { 'p_{0,32}' }
+"110-0" [ shape=box label="r_{2}" ];
+// id = 111{ 'Glycolaldehyde' 'p_{0,13}' }, 'Aldol Addition ->', { 'p_{0,5}' }
+"111-0" [ shape=box label="r_{2}" ];
+// id = 112{ 'p_{0,14}' 'p_{0,15}' }, 'Aldol Addition ->', { 'random5' }
+"112-0" [ shape=box label="r_{2}" ];
+// id = 114{ 'g_{13}' 'p_{0,14}' }, 'Aldol Addition ->', { 'p_{0,33}' }
+"114-0" [ shape=box label="r_{2}" ];
+// id = 115{ 'g_{11}' 'p_{0,14}' }, 'Aldol Addition ->', { 'p_{0,8}' }
+"115-0" [ shape=box label="r_{2}" ];
+// id = 117{ 'g_{11}' 'p_{0,14}' }, 'Aldol Addition ->', { 'p_{0,34}' }
+"117-0" [ shape=box label="r_{2}" ];
+// id = 118{ 'p_{0,15}' 'p_{0,16}' }, 'Aldol Addition ->', { 'random6' }
+"118-0" [ shape=box label="r_{2}" ];
+// id = 120{ 'random5' 'p_{0,15}' }, 'Aldol Addition ->', { 'p_{0,35}' }
+"120-0" [ shape=box label="r_{2}" ];
+// id = 122{ 'random6' 'p_{0,15}' }, 'Aldol Addition ->', { 'p_{0,36}' }
+"122-0" [ shape=box label="r_{2}" ];
+// id = 124{ 'random8' 'p_{0,15}' }, 'Aldol Addition ->', { 'p_{0,37}' }
+"124-0" [ shape=box label="r_{2}" ];
+// id = 126{ 'g_{12}' 'p_{0,15}' }, 'Aldol Addition ->', { 'p_{0,38}' }
+"126-0" [ shape=box label="r_{2}" ];
+// id = 128{ 'g_{10}' 'p_{0,15}' }, 'Aldol Addition ->', { 'p_{0,39}' }
+"128-0" [ shape=box label="r_{2}" ];
+// id = 130{ 'random1' 'p_{0,15}' }, 'Aldol Addition ->', { 'p_{0,40}' }
+"130-0" [ shape=box label="r_{2}" ];
+// id = 132{ 'random2' 'p_{0,15}' }, 'Aldol Addition ->', { 'p_{0,41}' }
+"132-0" [ shape=box label="r_{2}" ];
+// id = 133{ 'Formaldehyde' 'p_{0,15}' }, 'Aldol Addition ->', { 'p_{0,14}' }
+"133-0" [ shape=box label="r_{2}" ];
+// id = 135{ 'g_{13}' 'p_{0,16}' }, 'Aldol Addition ->', { 'p_{0,42}' }
+"135-0" [ shape=box label="r_{2}" ];
+// id = 136{ 'g_{11}' 'p_{0,16}' }, 'Aldol Addition ->', { 'p_{0,10}' }
+"136-0" [ shape=box label="r_{2}" ];
+// id = 138{ 'g_{11}' 'p_{0,16}' }, 'Aldol Addition ->', { 'p_{0,43}' }
+"138-0" [ shape=box label="r_{2}" ];
+// id = 139{ 'p_{0,0}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'g_{13}' }
+"139-0" [ shape=box label="r_{3}" ];
+// id = 140{ 'p_{0,2}' }, 'Aldol Addition <-', { 'p_{0,13}' 'p_{0,14}' }
+"140-0" [ shape=box label="r_{3}" ];
+// id = 141{ 'p_{0,3}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'g_{11}' }
+"141-0" [ shape=box label="r_{3}" ];
+// id = 142{ 'p_{0,4}' }, 'Aldol Addition <-', { 'p_{0,13}' 'p_{0,16}' }
+"142-0" [ shape=box label="r_{3}" ];
+// id = 143{ 'p_{0,5}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'p_{0,13}' }
+"143-0" [ shape=box label="r_{3}" ];
+// id = 144{ 'p_{0,6}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'random3' }
+"144-0" [ shape=box label="r_{3}" ];
+// id = 145{ 'p_{0,7}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'random3' }
+"145-0" [ shape=box label="r_{3}" ];
+// id = 146{ 'p_{0,8}' }, 'Aldol Addition <-', { 'g_{11}' 'p_{0,14}' }
+"146-0" [ shape=box label="r_{3}" ];
+// id = 147{ 'p_{0,8}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'random4' }
+"147-0" [ shape=box label="r_{3}" ];
+// id = 148{ 'p_{0,9}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'random4' }
+"148-0" [ shape=box label="r_{3}" ];
+// id = 149{ 'p_{0,10}' }, 'Aldol Addition <-', { 'g_{11}' 'p_{0,16}' }
+"149-0" [ shape=box label="r_{3}" ];
+// id = 150{ 'p_{0,10}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'random7' }
+"150-0" [ shape=box label="r_{3}" ];
+// id = 151{ 'p_{0,11}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'random7' }
+"151-0" [ shape=box label="r_{3}" ];
+// id = 152{ 'p_{0,12}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'g_{11}' }
+"152-0" [ shape=box label="r_{3}" ];
+// id = 199{ 'Formaldehyde' 'p_{0,17}' }, 'Aldol Addition ->', { 'p_{0,30}' }
+"199-0" [ shape=box label="r_{2}" ];
+// id = 200{ 'Formaldehyde' 'p_{0,17}' }, 'Aldol Addition ->', { 'p_{0,7}' }
+"200-0" [ shape=box label="r_{2}" ];
+// id = 202{ 'Formaldehyde' 'p_{0,18}' }, 'Aldol Addition ->', { 'p_{0,53}' }
+"202-0" [ shape=box label="r_{2}" ];
+// id = 203{ 'Formaldehyde' 'p_{0,18}' }, 'Aldol Addition ->', { 'p_{0,42}' }
+"203-0" [ shape=box label="r_{2}" ];
+// id = 204{ 'Formaldehyde' 'p_{0,19}' }, 'Aldol Addition ->', { 'p_{0,7}' }
+"204-0" [ shape=box label="r_{2}" ];
+// id = 205{ 'Formaldehyde' 'p_{0,20}' }, 'Aldol Addition ->', { 'p_{0,33}' }
+"205-0" [ shape=box label="r_{2}" ];
+// id = 206{ 'Formaldehyde' 'p_{0,20}' }, 'Aldol Addition ->', { 'p_{0,11}' }
+"206-0" [ shape=box label="r_{2}" ];
+// id = 208{ 'p_{0,15}' 'p_{0,32}' }, 'Aldol Addition ->', { 'p_{0,54}' }
+"208-0" [ shape=box label="r_{2}" ];
+// id = 210{ 'p_{0,13}' 'p_{0,32}' }, 'Aldol Addition ->', { 'p_{0,55}' }
+"210-0" [ shape=box label="r_{2}" ];
+// id = 212{ 'p_{0,13}' 'p_{0,32}' }, 'Aldol Addition ->', { 'p_{0,56}' }
+"212-0" [ shape=box label="r_{2}" ];
+// id = 213{ 'p_{0,25}' }, 'Aldol Addition <-', { 'p_{0,5}' 'p_{0,15}' }
+"213-0" [ shape=box label="r_{3}" ];
+// id = 214{ 'p_{0,26}' }, 'Aldol Addition <-', { 'p_{0,13}' 'p_{0,14}' }
+"214-0" [ shape=box label="r_{3}" ];
+// id = 215{ 'p_{0,27}' }, 'Aldol Addition <-', { 'p_{0,13}' 'p_{0,16}' }
+"215-0" [ shape=box label="r_{3}" ];
+// id = 216{ 'p_{0,28}' }, 'Aldol Addition <-', { 'g_{12}' 'p_{0,13}' }
+"216-0" [ shape=box label="r_{3}" ];
+// id = 217{ 'p_{0,29}' }, 'Aldol Addition <-', { 'g_{10}' 'p_{0,13}' }
+"217-0" [ shape=box label="r_{3}" ];
+// id = 218{ 'p_{0,30}' }, 'Aldol Addition <-', { 'g_{12}' 'p_{0,13}' }
+"218-0" [ shape=box label="r_{3}" ];
+// id = 219{ 'p_{0,31}' }, 'Aldol Addition <-', { 'g_{10}' 'p_{0,13}' }
+"219-0" [ shape=box label="r_{3}" ];
+// id = 220{ 'p_{0,33}' }, 'Aldol Addition <-', { 'g_{13}' 'p_{0,14}' }
+"220-0" [ shape=box label="r_{3}" ];
+// id = 221{ 'p_{0,34}' }, 'Aldol Addition <-', { 'g_{11}' 'p_{0,14}' }
+"221-0" [ shape=box label="r_{3}" ];
+// id = 222{ 'p_{0,35}' }, 'Aldol Addition <-', { 'random5' 'p_{0,15}' }
+"222-0" [ shape=box label="r_{3}" ];
+// id = 223{ 'p_{0,36}' }, 'Aldol Addition <-', { 'random6' 'p_{0,15}' }
+"223-0" [ shape=box label="r_{3}" ];
+// id = 224{ 'p_{0,37}' }, 'Aldol Addition <-', { 'random8' 'p_{0,15}' }
+"224-0" [ shape=box label="r_{3}" ];
+// id = 225{ 'p_{0,38}' }, 'Aldol Addition <-', { 'g_{12}' 'p_{0,15}' }
+"225-0" [ shape=box label="r_{3}" ];
+// id = 226{ 'p_{0,39}' }, 'Aldol Addition <-', { 'g_{10}' 'p_{0,15}' }
+"226-0" [ shape=box label="r_{3}" ];
+// id = 227{ 'p_{0,40}' }, 'Aldol Addition <-', { 'random1' 'p_{0,15}' }
+"227-0" [ shape=box label="r_{3}" ];
+// id = 228{ 'p_{0,41}' }, 'Aldol Addition <-', { 'random2' 'p_{0,15}' }
+"228-0" [ shape=box label="r_{3}" ];
+// id = 229{ 'p_{0,42}' }, 'Aldol Addition <-', { 'g_{13}' 'p_{0,16}' }
+"229-0" [ shape=box label="r_{3}" ];
+// id = 230{ 'p_{0,43}' }, 'Aldol Addition <-', { 'g_{11}' 'p_{0,16}' }
+"230-0" [ shape=box label="r_{3}" ];
+// id = 252{ 'Formaldehyde' 'p_{0,45}' }, 'Aldol Addition ->', { 'p_{0,31}' }
+"252-0" [ shape=box label="r_{2}" ];
+// id = 253{ 'Formaldehyde' 'p_{0,45}' }, 'Aldol Addition ->', { 'p_{0,34}' }
+"253-0" [ shape=box label="r_{2}" ];
+// id = 254{ 'Formaldehyde' 'p_{0,46}' }, 'Aldol Addition ->', { 'p_{0,56}' }
+"254-0" [ shape=box label="r_{2}" ];
+// id = 255{ 'Formaldehyde' 'p_{0,46}' }, 'Aldol Addition ->', { 'p_{0,43}' }
+"255-0" [ shape=box label="r_{2}" ];
+// id = 256{ 'p_{0,54}' }, 'Aldol Addition <-', { 'p_{0,15}' 'p_{0,32}' }
+"256-0" [ shape=box label="r_{3}" ];
+// id = 257{ 'p_{0,55}' }, 'Aldol Addition <-', { 'p_{0,13}' 'p_{0,32}' }
+"257-0" [ shape=box label="r_{3}" ];
+// id = 258{ 'p_{0,56}' }, 'Aldol Addition <-', { 'p_{0,13}' 'p_{0,32}' }
+"258-0" [ shape=box label="r_{3}" ];
+// id = 14{ 'random1' }, 'Keto-enol isomerization ->', { 'random3' }
+"2-0" -> "4-0" [ label="r_{0}" ];
+// id = 15{ 'random2' }, 'Keto-enol isomerization ->', { 'random3' }
+"3-0" -> "4-0" [ label="r_{0}" ];
+// id = 16{ 'random2' }, 'Keto-enol isomerization ->', { 'random4' }
+"3-0" -> "5-0" [ label="r_{0}" ];
+// id = 17{ 'random5' }, 'Keto-enol isomerization ->', { 'random4' }
+"6-0" -> "5-0" [ label="r_{0}" ];
+// id = 18{ 'random6' }, 'Keto-enol isomerization ->', { 'random7' }
+"7-0" -> "8-0" [ label="r_{0}" ];
+// id = 19{ 'random8' }, 'Keto-enol isomerization ->', { 'random7' }
+"9-0" -> "8-0" [ label="r_{0}" ];
+// id = 20{ 'g_{10}' }, 'Keto-enol isomerization ->', { 'g_{11}' }
+"10-0" -> "11-0" [ label="r_{0}" ];
+// id = 21{ 'g_{12}' }, 'Keto-enol isomerization ->', { 'g_{13}' }
+"12-0" -> "13-0" [ label="r_{0}" ];
+// id = 22{ 'g_{12}' }, 'Keto-enol isomerization ->', { 'g_{11}' }
+"12-0" -> "11-0" [ label="r_{0}" ];
+// id = 23{ 'random3' }, 'Keto-enol isomerization <-', { 'random2' }
+"4-0" -> "3-0" [ label="r_{1}" ];
+// id = 24{ 'random3' }, 'Keto-enol isomerization <-', { 'random1' }
+"4-0" -> "2-0" [ label="r_{1}" ];
+// id = 25{ 'random4' }, 'Keto-enol isomerization <-', { 'random5' }
+"5-0" -> "6-0" [ label="r_{1}" ];
+// id = 26{ 'random4' }, 'Keto-enol isomerization <-', { 'random2' }
+"5-0" -> "3-0" [ label="r_{1}" ];
+// id = 27{ 'random7' }, 'Keto-enol isomerization <-', { 'random6' }
+"8-0" -> "7-0" [ label="r_{1}" ];
+// id = 28{ 'random7' }, 'Keto-enol isomerization <-', { 'random8' }
+"8-0" -> "9-0" [ label="r_{1}" ];
+// id = 29{ 'g_{11}' }, 'Keto-enol isomerization <-', { 'g_{10}' }
+"11-0" -> "10-0" [ label="r_{1}" ];
+// id = 30{ 'g_{11}' }, 'Keto-enol isomerization <-', { 'g_{12}' }
+"11-0" -> "12-0" [ label="r_{1}" ];
+// id = 31{ 'g_{13}' }, 'Keto-enol isomerization <-', { 'g_{12}' }
+"13-0" -> "12-0" [ label="r_{1}" ];
+// id = 33{ 'Formaldehyde' 'random3' }, 'Aldol Addition ->', { 'p_{0,0}' }
+"0-0" -> "33-0" [ ];
+"4-0" -> "33-0" [ ];
+"33-0" -> "32-0" [ ];
+// id = 35{ 'Formaldehyde' 'random3' }, 'Aldol Addition ->', { 'p_{0,1}' }
+"0-0" -> "35-0" [ ];
+"4-0" -> "35-0" [ ];
+"35-0" -> "34-0" [ ];
+// id = 37{ 'Formaldehyde' 'random4' }, 'Aldol Addition ->', { 'p_{0,2}' }
+"0-0" -> "37-0" [ ];
+"5-0" -> "37-0" [ ];
+"37-0" -> "36-0" [ ];
+// id = 39{ 'Formaldehyde' 'random4' }, 'Aldol Addition ->', { 'p_{0,3}' }
+"0-0" -> "39-0" [ ];
+"5-0" -> "39-0" [ ];
+"39-0" -> "38-0" [ ];
+// id = 41{ 'Formaldehyde' 'random7' }, 'Aldol Addition ->', { 'p_{0,4}' }
+"0-0" -> "41-0" [ ];
+"8-0" -> "41-0" [ ];
+"41-0" -> "40-0" [ ];
+// id = 42{ 'Formaldehyde' 'random7' }, 'Aldol Addition ->', { 'p_{0,1}' }
+"0-0" -> "42-0" [ ];
+"8-0" -> "42-0" [ ];
+"42-0" -> "34-0" [ ];
+// id = 44{ 'Formaldehyde' 'g_{11}' }, 'Aldol Addition ->', { 'p_{0,5}' }
+"0-0" -> "44-0" [ ];
+"11-0" -> "44-0" [ ];
+"44-0" -> "43-0" [ ];
+// id = 45{ 'Formaldehyde' 'g_{11}' }, 'Aldol Addition ->', { 'random1' }
+"0-0" -> "45-0" [ ];
+"11-0" -> "45-0" [ ];
+"45-0" -> "2-0" [ ];
+// id = 46{ 'Formaldehyde' 'g_{13}' }, 'Aldol Addition ->', { 'random8' }
+"0-0" -> "46-0" [ ];
+"13-0" -> "46-0" [ ];
+"46-0" -> "9-0" [ ];
+// id = 48{ 'Glycolaldehyde' 'random3' }, 'Aldol Addition ->', { 'p_{0,6}' }
+"1-0" -> "48-0" [ ];
+"4-0" -> "48-0" [ ];
+"48-0" -> "47-0" [ ];
+// id = 50{ 'Glycolaldehyde' 'random3' }, 'Aldol Addition ->', { 'p_{0,7}' }
+"1-0" -> "50-0" [ ];
+"4-0" -> "50-0" [ ];
+"50-0" -> "49-0" [ ];
+// id = 52{ 'Glycolaldehyde' 'random4' }, 'Aldol Addition ->', { 'p_{0,8}' }
+"1-0" -> "52-0" [ ];
+"5-0" -> "52-0" [ ];
+"52-0" -> "51-0" [ ];
+// id = 54{ 'Glycolaldehyde' 'random4' }, 'Aldol Addition ->', { 'p_{0,9}' }
+"1-0" -> "54-0" [ ];
+"5-0" -> "54-0" [ ];
+"54-0" -> "53-0" [ ];
+// id = 56{ 'Glycolaldehyde' 'random7' }, 'Aldol Addition ->', { 'p_{0,10}' }
+"1-0" -> "56-0" [ ];
+"8-0" -> "56-0" [ ];
+"56-0" -> "55-0" [ ];
+// id = 58{ 'Glycolaldehyde' 'random7' }, 'Aldol Addition ->', { 'p_{0,11}' }
+"1-0" -> "58-0" [ ];
+"8-0" -> "58-0" [ ];
+"58-0" -> "57-0" [ ];
+// id = 60{ 'Glycolaldehyde' 'g_{11}' }, 'Aldol Addition ->', { 'p_{0,12}' }
+"1-0" -> "60-0" [ ];
+"11-0" -> "60-0" [ ];
+"60-0" -> "59-0" [ ];
+// id = 61{ 'Glycolaldehyde' 'g_{11}' }, 'Aldol Addition ->', { 'p_{0,3}' }
+"1-0" -> "61-0" [ ];
+"11-0" -> "61-0" [ ];
+"61-0" -> "38-0" [ ];
+// id = 62{ 'Glycolaldehyde' 'g_{13}' }, 'Aldol Addition ->', { 'p_{0,0}' }
+"1-0" -> "62-0" [ ];
+"13-0" -> "62-0" [ ];
+"62-0" -> "32-0" [ ];
+// id = 64{ 'random2' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'p_{0,13}' }
+"3-0" -> "64-0" [ ];
+"64-0" -> "1-0" [ ];
+"64-0" -> "63-0" [ ];
+// id = 67{ 'random5' }, 'Aldol Addition <-', { 'p_{0,14}' 'p_{0,15}' }
+"6-0" -> "67-0" [ ];
+"67-0" -> "65-0" [ ];
+"67-0" -> "66-0" [ ];
+// id = 69{ 'random6' }, 'Aldol Addition <-', { 'p_{0,15}' 'p_{0,16}' }
+"7-0" -> "69-0" [ ];
+"69-0" -> "66-0" [ ];
+"69-0" -> "68-0" [ ];
+// id = 70{ 'g_{10}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'p_{0,15}' }
+"10-0" -> "70-0" [ ];
+"70-0" -> "1-0" [ ];
+"70-0" -> "66-0" [ ];
+// id = 72{ 'p_{0,0}' }, 'Keto-enol isomerization ->', { 'p_{0,17}' }
+"32-0" -> "71-0" [ label="r_{0}" ];
+// id = 74{ 'p_{0,1}' }, 'Keto-enol isomerization ->', { 'p_{0,18}' }
+"34-0" -> "73-0" [ label="r_{0}" ];
+// id = 76{ 'p_{0,3}' }, 'Keto-enol isomerization ->', { 'p_{0,19}' }
+"38-0" -> "75-0" [ label="r_{0}" ];
+// id = 78{ 'p_{0,3}' }, 'Keto-enol isomerization ->', { 'p_{0,20}' }
+"38-0" -> "77-0" [ label="r_{0}" ];
+// id = 80{ 'p_{0,6}' }, 'Keto-enol isomerization ->', { 'p_{0,21}' }
+"47-0" -> "79-0" [ label="r_{0}" ];
+// id = 82{ 'p_{0,7}' }, 'Keto-enol isomerization ->', { 'p_{0,22}' }
+"49-0" -> "81-0" [ label="r_{0}" ];
+// id = 84{ 'p_{0,9}' }, 'Keto-enol isomerization ->', { 'p_{0,23}' }
+"53-0" -> "83-0" [ label="r_{0}" ];
+// id = 86{ 'p_{0,11}' }, 'Keto-enol isomerization ->', { 'p_{0,24}' }
+"57-0" -> "85-0" [ label="r_{0}" ];
+// id = 87{ 'p_{0,14}' }, 'Keto-enol isomerization ->', { 'p_{0,13}' }
+"65-0" -> "63-0" [ label="r_{0}" ];
+// id = 88{ 'p_{0,16}' }, 'Keto-enol isomerization ->', { 'p_{0,13}' }
+"68-0" -> "63-0" [ label="r_{0}" ];
+// id = 89{ 'p_{0,13}' }, 'Keto-enol isomerization <-', { 'p_{0,16}' }
+"63-0" -> "68-0" [ label="r_{1}" ];
+// id = 90{ 'p_{0,13}' }, 'Keto-enol isomerization <-', { 'p_{0,14}' }
+"63-0" -> "65-0" [ label="r_{1}" ];
+// id = 92{ 'p_{0,5}' 'p_{0,15}' }, 'Aldol Addition ->', { 'p_{0,25}' }
+"43-0" -> "92-0" [ ];
+"66-0" -> "92-0" [ ];
+"92-0" -> "91-0" [ ];
+// id = 94{ 'p_{0,13}' 'p_{0,14}' }, 'Aldol Addition ->', { 'p_{0,26}' }
+"63-0" -> "94-0" [ ];
+"65-0" -> "94-0" [ ];
+"94-0" -> "93-0" [ ];
+// id = 96{ 'p_{0,13}' 'p_{0,16}' }, 'Aldol Addition ->', { 'p_{0,27}' }
+"63-0" -> "96-0" [ ];
+"68-0" -> "96-0" [ ];
+"96-0" -> "95-0" [ ];
+// id = 98{ 'g_{12}' 'p_{0,13}' }, 'Aldol Addition ->', { 'p_{0,28}' }
+"12-0" -> "98-0" [ ];
+"63-0" -> "98-0" [ ];
+"98-0" -> "97-0" [ ];
+// id = 100{ 'g_{10}' 'p_{0,13}' }, 'Aldol Addition ->', { 'p_{0,29}' }
+"10-0" -> "100-0" [ ];
+"63-0" -> "100-0" [ ];
+"100-0" -> "99-0" [ ];
+// id = 101{ 'Formaldehyde' 'p_{0,13}' }, 'Aldol Addition ->', { 'g_{12}' }
+"0-0" -> "101-0" [ ];
+"63-0" -> "101-0" [ ];
+"101-0" -> "12-0" [ ];
+// id = 102{ 'Glycolaldehyde' 'p_{0,13}' }, 'Aldol Addition ->', { 'random2' }
+"1-0" -> "102-0" [ ];
+"63-0" -> "102-0" [ ];
+"102-0" -> "3-0" [ ];
+// id = 103{ 'p_{0,13}' 'p_{0,14}' }, 'Aldol Addition ->', { 'p_{0,2}' }
+"63-0" -> "103-0" [ ];
+"65-0" -> "103-0" [ ];
+"103-0" -> "36-0" [ ];
+// id = 104{ 'p_{0,13}' 'p_{0,16}' }, 'Aldol Addition ->', { 'p_{0,4}' }
+"63-0" -> "104-0" [ ];
+"68-0" -> "104-0" [ ];
+"104-0" -> "40-0" [ ];
+// id = 106{ 'g_{12}' 'p_{0,13}' }, 'Aldol Addition ->', { 'p_{0,30}' }
+"12-0" -> "106-0" [ ];
+"63-0" -> "106-0" [ ];
+"106-0" -> "105-0" [ ];
+// id = 108{ 'g_{10}' 'p_{0,13}' }, 'Aldol Addition ->', { 'p_{0,31}' }
+"10-0" -> "108-0" [ ];
+"63-0" -> "108-0" [ ];
+"108-0" -> "107-0" [ ];
+// id = 110{ 'Formaldehyde' 'p_{0,13}' }, 'Aldol Addition ->', { 'p_{0,32}' }
+"0-0" -> "110-0" [ ];
+"63-0" -> "110-0" [ ];
+"110-0" -> "109-0" [ ];
+// id = 111{ 'Glycolaldehyde' 'p_{0,13}' }, 'Aldol Addition ->', { 'p_{0,5}' }
+"1-0" -> "111-0" [ ];
+"63-0" -> "111-0" [ ];
+"111-0" -> "43-0" [ ];
+// id = 112{ 'p_{0,14}' 'p_{0,15}' }, 'Aldol Addition ->', { 'random5' }
+"65-0" -> "112-0" [ ];
+"66-0" -> "112-0" [ ];
+"112-0" -> "6-0" [ ];
+// id = 114{ 'g_{13}' 'p_{0,14}' }, 'Aldol Addition ->', { 'p_{0,33}' }
+"13-0" -> "114-0" [ ];
+"65-0" -> "114-0" [ ];
+"114-0" -> "113-0" [ ];
+// id = 115{ 'g_{11}' 'p_{0,14}' }, 'Aldol Addition ->', { 'p_{0,8}' }
+"11-0" -> "115-0" [ ];
+"65-0" -> "115-0" [ ];
+"115-0" -> "51-0" [ ];
+// id = 117{ 'g_{11}' 'p_{0,14}' }, 'Aldol Addition ->', { 'p_{0,34}' }
+"11-0" -> "117-0" [ ];
+"65-0" -> "117-0" [ ];
+"117-0" -> "116-0" [ ];
+// id = 118{ 'p_{0,15}' 'p_{0,16}' }, 'Aldol Addition ->', { 'random6' }
+"66-0" -> "118-0" [ ];
+"68-0" -> "118-0" [ ];
+"118-0" -> "7-0" [ ];
+// id = 120{ 'random5' 'p_{0,15}' }, 'Aldol Addition ->', { 'p_{0,35}' }
+"6-0" -> "120-0" [ ];
+"66-0" -> "120-0" [ ];
+"120-0" -> "119-0" [ ];
+// id = 122{ 'random6' 'p_{0,15}' }, 'Aldol Addition ->', { 'p_{0,36}' }
+"7-0" -> "122-0" [ ];
+"66-0" -> "122-0" [ ];
+"122-0" -> "121-0" [ ];
+// id = 124{ 'random8' 'p_{0,15}' }, 'Aldol Addition ->', { 'p_{0,37}' }
+"9-0" -> "124-0" [ ];
+"66-0" -> "124-0" [ ];
+"124-0" -> "123-0" [ ];
+// id = 126{ 'g_{12}' 'p_{0,15}' }, 'Aldol Addition ->', { 'p_{0,38}' }
+"12-0" -> "126-0" [ ];
+"66-0" -> "126-0" [ ];
+"126-0" -> "125-0" [ ];
+// id = 128{ 'g_{10}' 'p_{0,15}' }, 'Aldol Addition ->', { 'p_{0,39}' }
+"10-0" -> "128-0" [ ];
+"66-0" -> "128-0" [ ];
+"128-0" -> "127-0" [ ];
+// id = 130{ 'random1' 'p_{0,15}' }, 'Aldol Addition ->', { 'p_{0,40}' }
+"2-0" -> "130-0" [ ];
+"66-0" -> "130-0" [ ];
+"130-0" -> "129-0" [ ];
+// id = 132{ 'random2' 'p_{0,15}' }, 'Aldol Addition ->', { 'p_{0,41}' }
+"3-0" -> "132-0" [ ];
+"66-0" -> "132-0" [ ];
+"132-0" -> "131-0" [ ];
+// id = 133{ 'Formaldehyde' 'p_{0,15}' }, 'Aldol Addition ->', { 'p_{0,14}' }
+"0-0" -> "133-0" [ ];
+"66-0" -> "133-0" [ ];
+"133-0" -> "65-0" [ ];
+// id = 135{ 'g_{13}' 'p_{0,16}' }, 'Aldol Addition ->', { 'p_{0,42}' }
+"13-0" -> "135-0" [ ];
+"68-0" -> "135-0" [ ];
+"135-0" -> "134-0" [ ];
+// id = 136{ 'g_{11}' 'p_{0,16}' }, 'Aldol Addition ->', { 'p_{0,10}' }
+"11-0" -> "136-0" [ ];
+"68-0" -> "136-0" [ ];
+"136-0" -> "55-0" [ ];
+// id = 138{ 'g_{11}' 'p_{0,16}' }, 'Aldol Addition ->', { 'p_{0,43}' }
+"11-0" -> "138-0" [ ];
+"68-0" -> "138-0" [ ];
+"138-0" -> "137-0" [ ];
+// id = 139{ 'p_{0,0}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'g_{13}' }
+"32-0" -> "139-0" [ ];
+"139-0" -> "1-0" [ ];
+"139-0" -> "13-0" [ ];
+// id = 140{ 'p_{0,2}' }, 'Aldol Addition <-', { 'p_{0,13}' 'p_{0,14}' }
+"36-0" -> "140-0" [ ];
+"140-0" -> "63-0" [ ];
+"140-0" -> "65-0" [ ];
+// id = 141{ 'p_{0,3}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'g_{11}' }
+"38-0" -> "141-0" [ ];
+"141-0" -> "1-0" [ ];
+"141-0" -> "11-0" [ ];
+// id = 142{ 'p_{0,4}' }, 'Aldol Addition <-', { 'p_{0,13}' 'p_{0,16}' }
+"40-0" -> "142-0" [ ];
+"142-0" -> "63-0" [ ];
+"142-0" -> "68-0" [ ];
+// id = 143{ 'p_{0,5}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'p_{0,13}' }
+"43-0" -> "143-0" [ ];
+"143-0" -> "1-0" [ ];
+"143-0" -> "63-0" [ ];
+// id = 144{ 'p_{0,6}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'random3' }
+"47-0" -> "144-0" [ ];
+"144-0" -> "1-0" [ ];
+"144-0" -> "4-0" [ ];
+// id = 145{ 'p_{0,7}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'random3' }
+"49-0" -> "145-0" [ ];
+"145-0" -> "1-0" [ ];
+"145-0" -> "4-0" [ ];
+// id = 146{ 'p_{0,8}' }, 'Aldol Addition <-', { 'g_{11}' 'p_{0,14}' }
+"51-0" -> "146-0" [ ];
+"146-0" -> "11-0" [ ];
+"146-0" -> "65-0" [ ];
+// id = 147{ 'p_{0,8}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'random4' }
+"51-0" -> "147-0" [ ];
+"147-0" -> "1-0" [ ];
+"147-0" -> "5-0" [ ];
+// id = 148{ 'p_{0,9}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'random4' }
+"53-0" -> "148-0" [ ];
+"148-0" -> "1-0" [ ];
+"148-0" -> "5-0" [ ];
+// id = 149{ 'p_{0,10}' }, 'Aldol Addition <-', { 'g_{11}' 'p_{0,16}' }
+"55-0" -> "149-0" [ ];
+"149-0" -> "11-0" [ ];
+"149-0" -> "68-0" [ ];
+// id = 150{ 'p_{0,10}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'random7' }
+"55-0" -> "150-0" [ ];
+"150-0" -> "1-0" [ ];
+"150-0" -> "8-0" [ ];
+// id = 151{ 'p_{0,11}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'random7' }
+"57-0" -> "151-0" [ ];
+"151-0" -> "1-0" [ ];
+"151-0" -> "8-0" [ ];
+// id = 152{ 'p_{0,12}' }, 'Aldol Addition <-', { 'Glycolaldehyde' 'g_{11}' }
+"59-0" -> "152-0" [ ];
+"152-0" -> "1-0" [ ];
+"152-0" -> "11-0" [ ];
+// id = 154{ 'p_{0,25}' }, 'Keto-enol isomerization ->', { 'p_{0,44}' }
+"91-0" -> "153-0" [ label="r_{0}" ];
+// id = 155{ 'p_{0,26}' }, 'Keto-enol isomerization ->', { 'p_{0,20}' }
+"93-0" -> "77-0" [ label="r_{0}" ];
+// id = 157{ 'p_{0,26}' }, 'Keto-enol isomerization ->', { 'p_{0,45}' }
+"93-0" -> "156-0" [ label="r_{0}" ];
+// id = 158{ 'p_{0,27}' }, 'Keto-enol isomerization ->', { 'p_{0,18}' }
+"95-0" -> "73-0" [ label="r_{0}" ];
+// id = 160{ 'p_{0,27}' }, 'Keto-enol isomerization ->', { 'p_{0,46}' }
+"95-0" -> "159-0" [ label="r_{0}" ];
+// id = 161{ 'p_{0,28}' }, 'Keto-enol isomerization ->', { 'p_{0,22}' }
+"97-0" -> "81-0" [ label="r_{0}" ];
+// id = 162{ 'p_{0,28}' }, 'Keto-enol isomerization ->', { 'p_{0,44}' }
+"97-0" -> "153-0" [ label="r_{0}" ];
+// id = 164{ 'p_{0,29}' }, 'Keto-enol isomerization ->', { 'p_{0,47}' }
+"99-0" -> "163-0" [ label="r_{0}" ];
+// id = 166{ 'p_{0,29}' }, 'Keto-enol isomerization ->', { 'p_{0,48}' }
+"99-0" -> "165-0" [ label="r_{0}" ];
+// id = 168{ 'p_{0,33}' }, 'Keto-enol isomerization ->', { 'p_{0,49}' }
+"113-0" -> "167-0" [ label="r_{0}" ];
+// id = 169{ 'p_{0,34}' }, 'Keto-enol isomerization ->', { 'p_{0,47}' }
+"116-0" -> "163-0" [ label="r_{0}" ];
+// id = 170{ 'p_{0,34}' }, 'Keto-enol isomerization ->', { 'p_{0,23}' }
+"116-0" -> "83-0" [ label="r_{0}" ];
+// id = 171{ 'p_{0,35}' }, 'Keto-enol isomerization ->', { 'p_{0,48}' }
+"119-0" -> "165-0" [ label="r_{0}" ];
+// id = 173{ 'p_{0,36}' }, 'Keto-enol isomerization ->', { 'p_{0,50}' }
+"121-0" -> "172-0" [ label="r_{0}" ];
+// id = 175{ 'p_{0,37}' }, 'Keto-enol isomerization ->', { 'p_{0,51}' }
+"123-0" -> "174-0" [ label="r_{0}" ];
+// id = 176{ 'p_{0,38}' }, 'Keto-enol isomerization ->', { 'p_{0,17}' }
+"125-0" -> "71-0" [ label="r_{0}" ];
+// id = 177{ 'p_{0,39}' }, 'Keto-enol isomerization ->', { 'p_{0,45}' }
+"127-0" -> "156-0" [ label="r_{0}" ];
+// id = 178{ 'p_{0,40}' }, 'Keto-enol isomerization ->', { 'p_{0,21}' }
+"129-0" -> "79-0" [ label="r_{0}" ];
+// id = 179{ 'p_{0,41}' }, 'Keto-enol isomerization ->', { 'p_{0,49}' }
+"131-0" -> "167-0" [ label="r_{0}" ];
+// id = 180{ 'p_{0,42}' }, 'Keto-enol isomerization ->', { 'p_{0,51}' }
+"134-0" -> "174-0" [ label="r_{0}" ];
+// id = 182{ 'p_{0,43}' }, 'Keto-enol isomerization ->', { 'p_{0,52}' }
+"137-0" -> "181-0" [ label="r_{0}" ];
+// id = 183{ 'p_{0,43}' }, 'Keto-enol isomerization ->', { 'p_{0,24}' }
+"137-0" -> "85-0" [ label="r_{0}" ];
+// id = 184{ 'p_{0,17}' }, 'Keto-enol isomerization <-', { 'p_{0,38}' }
+"71-0" -> "125-0" [ label="r_{1}" ];
+// id = 185{ 'p_{0,17}' }, 'Keto-enol isomerization <-', { 'p_{0,0}' }
+"71-0" -> "32-0" [ label="r_{1}" ];
+// id = 186{ 'p_{0,18}' }, 'Keto-enol isomerization <-', { 'p_{0,1}' }
+"73-0" -> "34-0" [ label="r_{1}" ];
+// id = 187{ 'p_{0,18}' }, 'Keto-enol isomerization <-', { 'p_{0,27}' }
+"73-0" -> "95-0" [ label="r_{1}" ];
+// id = 188{ 'p_{0,19}' }, 'Keto-enol isomerization <-', { 'p_{0,3}' }
+"75-0" -> "38-0" [ label="r_{1}" ];
+// id = 189{ 'p_{0,20}' }, 'Keto-enol isomerization <-', { 'p_{0,26}' }
+"77-0" -> "93-0" [ label="r_{1}" ];
+// id = 190{ 'p_{0,20}' }, 'Keto-enol isomerization <-', { 'p_{0,3}' }
+"77-0" -> "38-0" [ label="r_{1}" ];
+// id = 191{ 'p_{0,21}' }, 'Keto-enol isomerization <-', { 'p_{0,40}' }
+"79-0" -> "129-0" [ label="r_{1}" ];
+// id = 192{ 'p_{0,21}' }, 'Keto-enol isomerization <-', { 'p_{0,6}' }
+"79-0" -> "47-0" [ label="r_{1}" ];
+// id = 193{ 'p_{0,22}' }, 'Keto-enol isomerization <-', { 'p_{0,7}' }
+"81-0" -> "49-0" [ label="r_{1}" ];
+// id = 194{ 'p_{0,22}' }, 'Keto-enol isomerization <-', { 'p_{0,28}' }
+"81-0" -> "97-0" [ label="r_{1}" ];
+// id = 195{ 'p_{0,23}' }, 'Keto-enol isomerization <-', { 'p_{0,9}' }
+"83-0" -> "53-0" [ label="r_{1}" ];
+// id = 196{ 'p_{0,23}' }, 'Keto-enol isomerization <-', { 'p_{0,34}' }
+"83-0" -> "116-0" [ label="r_{1}" ];
+// id = 197{ 'p_{0,24}' }, 'Keto-enol isomerization <-', { 'p_{0,43}' }
+"85-0" -> "137-0" [ label="r_{1}" ];
+// id = 198{ 'p_{0,24}' }, 'Keto-enol isomerization <-', { 'p_{0,11}' }
+"85-0" -> "57-0" [ label="r_{1}" ];
+// id = 199{ 'Formaldehyde' 'p_{0,17}' }, 'Aldol Addition ->', { 'p_{0,30}' }
+"0-0" -> "199-0" [ ];
+"71-0" -> "199-0" [ ];
+"199-0" -> "105-0" [ ];
+// id = 200{ 'Formaldehyde' 'p_{0,17}' }, 'Aldol Addition ->', { 'p_{0,7}' }
+"0-0" -> "200-0" [ ];
+"71-0" -> "200-0" [ ];
+"200-0" -> "49-0" [ ];
+// id = 202{ 'Formaldehyde' 'p_{0,18}' }, 'Aldol Addition ->', { 'p_{0,53}' }
+"0-0" -> "202-0" [ ];
+"73-0" -> "202-0" [ ];
+"202-0" -> "201-0" [ ];
+// id = 203{ 'Formaldehyde' 'p_{0,18}' }, 'Aldol Addition ->', { 'p_{0,42}' }
+"0-0" -> "203-0" [ ];
+"73-0" -> "203-0" [ ];
+"203-0" -> "134-0" [ ];
+// id = 204{ 'Formaldehyde' 'p_{0,19}' }, 'Aldol Addition ->', { 'p_{0,7}' }
+"0-0" -> "204-0" [ ];
+"75-0" -> "204-0" [ ];
+"204-0" -> "49-0" [ ];
+// id = 205{ 'Formaldehyde' 'p_{0,20}' }, 'Aldol Addition ->', { 'p_{0,33}' }
+"0-0" -> "205-0" [ ];
+"77-0" -> "205-0" [ ];
+"205-0" -> "113-0" [ ];
+// id = 206{ 'Formaldehyde' 'p_{0,20}' }, 'Aldol Addition ->', { 'p_{0,11}' }
+"0-0" -> "206-0" [ ];
+"77-0" -> "206-0" [ ];
+"206-0" -> "57-0" [ ];
+// id = 208{ 'p_{0,15}' 'p_{0,32}' }, 'Aldol Addition ->', { 'p_{0,54}' }
+"66-0" -> "208-0" [ ];
+"109-0" -> "208-0" [ ];
+"208-0" -> "207-0" [ ];
+// id = 210{ 'p_{0,13}' 'p_{0,32}' }, 'Aldol Addition ->', { 'p_{0,55}' }
+"63-0" -> "210-0" [ ];
+"109-0" -> "210-0" [ ];
+"210-0" -> "209-0" [ ];
+// id = 212{ 'p_{0,13}' 'p_{0,32}' }, 'Aldol Addition ->', { 'p_{0,56}' }
+"63-0" -> "212-0" [ ];
+"109-0" -> "212-0" [ ];
+"212-0" -> "211-0" [ ];
+// id = 213{ 'p_{0,25}' }, 'Aldol Addition <-', { 'p_{0,5}' 'p_{0,15}' }
+"91-0" -> "213-0" [ ];
+"213-0" -> "43-0" [ ];
+"213-0" -> "66-0" [ ];
+// id = 214{ 'p_{0,26}' }, 'Aldol Addition <-', { 'p_{0,13}' 'p_{0,14}' }
+"93-0" -> "214-0" [ ];
+"214-0" -> "63-0" [ ];
+"214-0" -> "65-0" [ ];
+// id = 215{ 'p_{0,27}' }, 'Aldol Addition <-', { 'p_{0,13}' 'p_{0,16}' }
+"95-0" -> "215-0" [ ];
+"215-0" -> "63-0" [ ];
+"215-0" -> "68-0" [ ];
+// id = 216{ 'p_{0,28}' }, 'Aldol Addition <-', { 'g_{12}' 'p_{0,13}' }
+"97-0" -> "216-0" [ ];
+"216-0" -> "12-0" [ ];
+"216-0" -> "63-0" [ ];
+// id = 217{ 'p_{0,29}' }, 'Aldol Addition <-', { 'g_{10}' 'p_{0,13}' }
+"99-0" -> "217-0" [ ];
+"217-0" -> "10-0" [ ];
+"217-0" -> "63-0" [ ];
+// id = 218{ 'p_{0,30}' }, 'Aldol Addition <-', { 'g_{12}' 'p_{0,13}' }
+"105-0" -> "218-0" [ ];
+"218-0" -> "12-0" [ ];
+"218-0" -> "63-0" [ ];
+// id = 219{ 'p_{0,31}' }, 'Aldol Addition <-', { 'g_{10}' 'p_{0,13}' }
+"107-0" -> "219-0" [ ];
+"219-0" -> "10-0" [ ];
+"219-0" -> "63-0" [ ];
+// id = 220{ 'p_{0,33}' }, 'Aldol Addition <-', { 'g_{13}' 'p_{0,14}' }
+"113-0" -> "220-0" [ ];
+"220-0" -> "13-0" [ ];
+"220-0" -> "65-0" [ ];
+// id = 221{ 'p_{0,34}' }, 'Aldol Addition <-', { 'g_{11}' 'p_{0,14}' }
+"116-0" -> "221-0" [ ];
+"221-0" -> "11-0" [ ];
+"221-0" -> "65-0" [ ];
+// id = 222{ 'p_{0,35}' }, 'Aldol Addition <-', { 'random5' 'p_{0,15}' }
+"119-0" -> "222-0" [ ];
+"222-0" -> "6-0" [ ];
+"222-0" -> "66-0" [ ];
+// id = 223{ 'p_{0,36}' }, 'Aldol Addition <-', { 'random6' 'p_{0,15}' }
+"121-0" -> "223-0" [ ];
+"223-0" -> "7-0" [ ];
+"223-0" -> "66-0" [ ];
+// id = 224{ 'p_{0,37}' }, 'Aldol Addition <-', { 'random8' 'p_{0,15}' }
+"123-0" -> "224-0" [ ];
+"224-0" -> "9-0" [ ];
+"224-0" -> "66-0" [ ];
+// id = 225{ 'p_{0,38}' }, 'Aldol Addition <-', { 'g_{12}' 'p_{0,15}' }
+"125-0" -> "225-0" [ ];
+"225-0" -> "12-0" [ ];
+"225-0" -> "66-0" [ ];
+// id = 226{ 'p_{0,39}' }, 'Aldol Addition <-', { 'g_{10}' 'p_{0,15}' }
+"127-0" -> "226-0" [ ];
+"226-0" -> "10-0" [ ];
+"226-0" -> "66-0" [ ];
+// id = 227{ 'p_{0,40}' }, 'Aldol Addition <-', { 'random1' 'p_{0,15}' }
+"129-0" -> "227-0" [ ];
+"227-0" -> "2-0" [ ];
+"227-0" -> "66-0" [ ];
+// id = 228{ 'p_{0,41}' }, 'Aldol Addition <-', { 'random2' 'p_{0,15}' }
+"131-0" -> "228-0" [ ];
+"228-0" -> "3-0" [ ];
+"228-0" -> "66-0" [ ];
+// id = 229{ 'p_{0,42}' }, 'Aldol Addition <-', { 'g_{13}' 'p_{0,16}' }
+"134-0" -> "229-0" [ ];
+"229-0" -> "13-0" [ ];
+"229-0" -> "68-0" [ ];
+// id = 230{ 'p_{0,43}' }, 'Aldol Addition <-', { 'g_{11}' 'p_{0,16}' }
+"137-0" -> "230-0" [ ];
+"230-0" -> "11-0" [ ];
+"230-0" -> "68-0" [ ];
+// id = 231{ 'p_{0,54}' }, 'Keto-enol isomerization ->', { 'p_{0,46}' }
+"207-0" -> "159-0" [ label="r_{0}" ];
+// id = 232{ 'p_{0,55}' }, 'Keto-enol isomerization ->', { 'p_{0,52}' }
+"209-0" -> "181-0" [ label="r_{0}" ];
+// id = 233{ 'p_{0,55}' }, 'Keto-enol isomerization ->', { 'p_{0,50}' }
+"209-0" -> "172-0" [ label="r_{0}" ];
+// id = 234{ 'p_{0,44}' }, 'Keto-enol isomerization <-', { 'p_{0,25}' }
+"153-0" -> "91-0" [ label="r_{1}" ];
+// id = 235{ 'p_{0,44}' }, 'Keto-enol isomerization <-', { 'p_{0,28}' }
+"153-0" -> "97-0" [ label="r_{1}" ];
+// id = 236{ 'p_{0,45}' }, 'Keto-enol isomerization <-', { 'p_{0,39}' }
+"156-0" -> "127-0" [ label="r_{1}" ];
+// id = 237{ 'p_{0,45}' }, 'Keto-enol isomerization <-', { 'p_{0,26}' }
+"156-0" -> "93-0" [ label="r_{1}" ];
+// id = 238{ 'p_{0,46}' }, 'Keto-enol isomerization <-', { 'p_{0,54}' }
+"159-0" -> "207-0" [ label="r_{1}" ];
+// id = 239{ 'p_{0,46}' }, 'Keto-enol isomerization <-', { 'p_{0,27}' }
+"159-0" -> "95-0" [ label="r_{1}" ];
+// id = 240{ 'p_{0,47}' }, 'Keto-enol isomerization <-', { 'p_{0,29}' }
+"163-0" -> "99-0" [ label="r_{1}" ];
+// id = 241{ 'p_{0,47}' }, 'Keto-enol isomerization <-', { 'p_{0,34}' }
+"163-0" -> "116-0" [ label="r_{1}" ];
+// id = 242{ 'p_{0,48}' }, 'Keto-enol isomerization <-', { 'p_{0,35}' }
+"165-0" -> "119-0" [ label="r_{1}" ];
+// id = 243{ 'p_{0,48}' }, 'Keto-enol isomerization <-', { 'p_{0,29}' }
+"165-0" -> "99-0" [ label="r_{1}" ];
+// id = 244{ 'p_{0,49}' }, 'Keto-enol isomerization <-', { 'p_{0,41}' }
+"167-0" -> "131-0" [ label="r_{1}" ];
+// id = 245{ 'p_{0,49}' }, 'Keto-enol isomerization <-', { 'p_{0,33}' }
+"167-0" -> "113-0" [ label="r_{1}" ];
+// id = 246{ 'p_{0,50}' }, 'Keto-enol isomerization <-', { 'p_{0,36}' }
+"172-0" -> "121-0" [ label="r_{1}" ];
+// id = 247{ 'p_{0,50}' }, 'Keto-enol isomerization <-', { 'p_{0,55}' }
+"172-0" -> "209-0" [ label="r_{1}" ];
+// id = 248{ 'p_{0,51}' }, 'Keto-enol isomerization <-', { 'p_{0,37}' }
+"174-0" -> "123-0" [ label="r_{1}" ];
+// id = 249{ 'p_{0,51}' }, 'Keto-enol isomerization <-', { 'p_{0,42}' }
+"174-0" -> "134-0" [ label="r_{1}" ];
+// id = 250{ 'p_{0,52}' }, 'Keto-enol isomerization <-', { 'p_{0,43}' }
+"181-0" -> "137-0" [ label="r_{1}" ];
+// id = 251{ 'p_{0,52}' }, 'Keto-enol isomerization <-', { 'p_{0,55}' }
+"181-0" -> "209-0" [ label="r_{1}" ];
+// id = 252{ 'Formaldehyde' 'p_{0,45}' }, 'Aldol Addition ->', { 'p_{0,31}' }
+"0-0" -> "252-0" [ ];
+"156-0" -> "252-0" [ ];
+"252-0" -> "107-0" [ ];
+// id = 253{ 'Formaldehyde' 'p_{0,45}' }, 'Aldol Addition ->', { 'p_{0,34}' }
+"0-0" -> "253-0" [ ];
+"156-0" -> "253-0" [ ];
+"253-0" -> "116-0" [ ];
+// id = 254{ 'Formaldehyde' 'p_{0,46}' }, 'Aldol Addition ->', { 'p_{0,56}' }
+"0-0" -> "254-0" [ ];
+"159-0" -> "254-0" [ ];
+"254-0" -> "211-0" [ ];
+// id = 255{ 'Formaldehyde' 'p_{0,46}' }, 'Aldol Addition ->', { 'p_{0,43}' }
+"0-0" -> "255-0" [ ];
+"159-0" -> "255-0" [ ];
+"255-0" -> "137-0" [ ];
+// id = 256{ 'p_{0,54}' }, 'Aldol Addition <-', { 'p_{0,15}' 'p_{0,32}' }
+"207-0" -> "256-0" [ ];
+"256-0" -> "66-0" [ ];
+"256-0" -> "109-0" [ ];
+// id = 257{ 'p_{0,55}' }, 'Aldol Addition <-', { 'p_{0,13}' 'p_{0,32}' }
+"209-0" -> "257-0" [ ];
+"257-0" -> "63-0" [ ];
+"257-0" -> "109-0" [ ];
+// id = 258{ 'p_{0,56}' }, 'Aldol Addition <-', { 'p_{0,13}' 'p_{0,32}' }
+"211-0" -> "258-0" [ ];
+"258-0" -> "63-0" [ ];
+"258-0" -> "109-0" [ ];
+}

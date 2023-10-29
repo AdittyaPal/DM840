@@ -1,0 +1,27 @@
+\begin{tikzpicture}[remember picture, scale=\modDGHyperScale]
+\input{\modInputPrefix/out/163_dg_1_11100_f_0_0_filt_coord.tex}
+% id = 0, graphName = Start
+\node[modStyleDGHyperVertex, at=(v-coord-0-0)] (v-0-0) {\includegraphics[scale=\modDGHyperImageScale] {\modInputPrefix/out/164_g_1_11311100.pdf}\\{$\mathrm{Start}$}};
+% id = 1, graphName = p_{0,13}
+\node[modStyleDGHyperVertex, at=(v-coord-1-0)] (v-1-0) {\includegraphics[scale=\modDGHyperImageScale] {\modInputPrefix/out/165_g_52_11311100.pdf}\\{$\mathrm{p_{0,13}}$}};
+% id = 3, graphName = p_{0,23}
+\node[modStyleDGHyperVertex, at=(v-coord-3-0)] (v-3-0) {\includegraphics[scale=\modDGHyperImageScale] {\modInputPrefix/out/166_g_88_11311100.pdf}\\{$\mathrm{p_{0,23}}$}};
+% id = 4, graphName = p_{0,29}
+\node[modStyleDGHyperVertex, at=(v-coord-4-0)] (v-4-0) {\includegraphics[scale=\modDGHyperImageScale] {\modInputPrefix/out/167_g_108_11311100.pdf}\\{$\mathrm{p_{0,29}}$}};
+% id = 6, graphName = Goal
+\node[modStyleDGHyperVertex, at=(v-coord-6-0)] (v-6-0) {\includegraphics[scale=\modDGHyperImageScale] {\modInputPrefix/out/168_g_0_11311100.pdf}\\{$\mathrm{Goal}$}};
+% id = 2{ 'Start' }, { 'p_{0,13}' }
+\path[modStyleDGHyperConnector] (v-0-0) to node[auto, swap] {$\mathrm{f\ 1,\ }$} (v-1-0);
+% id = 5{ 'p_{0,23}' }, { 'p_{0,29}' }
+\path[modStyleDGHyperConnector] (v-3-0) to node[auto, swap] {$\mathrm{f\ 1,\ }$} (v-4-0);
+% id = 7{ 'p_{0,29}' }, { 'Goal' }
+\path[modStyleDGHyperConnector] (v-4-0) to node[auto, swap] {$\mathrm{f\ 1,\ }$} (v-6-0);
+% id = 8{ 'p_{0,13}' }, { 'p_{0,23}' }
+\path[modStyleDGHyperConnector] (v-1-0) to node[auto, swap] {$\mathrm{f\ 1,\ }$} (v-3-0);
+% inFlow/outFlow, id = 0-0, graphName = Start, inFlow = 1, outFlow = 0
+\node[modStyleDGHyperVertexHiddenLarge, at=(v-coord-0-0-IOFlow)] (v-0-0-IOFlow) {};
+\path[modStyleDGHyperConnector] (v-0-0-IOFlow) to node[auto, swap] {$\mathrm{f\ 1}$} (v-0-0);
+% inFlow/outFlow, id = 6-0, graphName = Goal, inFlow = 0, outFlow = 1
+\node[modStyleDGHyperVertexHiddenLarge, at=(v-coord-6-0-IOFlow)] (v-6-0-IOFlow) {};
+\path[modStyleDGHyperConnector] (v-6-0) to node[auto, swap] {$\mathrm{f\ 1}$} (v-6-0-IOFlow);
+\end{tikzpicture}%

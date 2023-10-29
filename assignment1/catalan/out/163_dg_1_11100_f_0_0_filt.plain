@@ -1,0 +1,15 @@
+graph 1 3.8033 7.6768
+node "0-0" 1.0887 6.9107 1.7678 1.5321 Start solid ellipse black lightgrey
+node "1-0" 2.1581 5.0507 1.6303 1.6106 "p_{0,13}" solid ellipse black lightgrey
+node "3-0" 2.998 3.2522 1.6106 1.1785 "p_{0,23}" solid ellipse black lightgrey
+node "4-0" 2.0182 1.9378 1.6106 0.92317 "p_{0,29}" solid ellipse black lightgrey
+node "6-0" 1.3399 0.68585 0.88464 0.5 Goal solid ellipse black lightgrey
+node "0-0-IOFlow" 3.7281 7.2747 0.05 0.05 "" invis point black lightgrey
+node "6-0-IOFlow" 0.025 0.025 0.05 0.05 "" invis point black lightgrey
+edge "0-0" "1-0" 4 1.4839 6.2234 1.5485 6.1109 1.6161 5.9934 1.6825 5.8779 "f 1, " 1.3887 5.9465 solid black
+edge "1-0" "3-0" 4 2.4997 4.3192 2.5584 4.1936 2.6191 4.0635 2.6772 3.9391 "f 1, " 2.394 4.025 solid black
+edge "3-0" "4-0" 4 2.6108 2.7327 2.5483 2.6488 2.4834 2.5619 2.4205 2.4775 "f 1, " 2.3212 2.501 solid black
+edge "4-0" "6-0" 4 1.779 1.4964 1.7004 1.3513 1.6139 1.1917 1.5386 1.0527 "f 1, " 1.4644 1.3787 solid black
+edge "6-0" "6-0-IOFlow" 4 1.0081 0.51909 0.74179 0.38526 0.38018 0.20351 0.178 0.1019 "f 1" 0.46109 0.41466 solid black
+edge "0-0-IOFlow" "0-0" 4 3.6984 7.2706 3.5393 7.2487 2.7687 7.1424 2.1058 7.051 "f 1" 2.7702 7.265 solid black
+stop

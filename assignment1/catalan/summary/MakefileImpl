@@ -1,0 +1,231 @@
+
+out/001_g_0_10300000.pdf: out/000_g_0_coord.tex out/001_g_0_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/001_g_0_10300000" "out/000_g_0_coord" 1
+out/003_g_0_11310100.pdf: out/002_g_0_mol_coord.tex out/003_g_0_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/003_g_0_11310100" "out/002_g_0_mol_coord" 1
+out/005_g_1_10300000.pdf: out/004_g_1_coord.tex out/005_g_1_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/005_g_1_10300000" "out/004_g_1_coord" 1
+out/007_g_1_11310100.pdf: out/006_g_1_mol_coord.tex out/007_g_1_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/007_g_1_11310100" "out/006_g_1_mol_coord" 1
+out/009_r_0_10300000_L.pdf: out/008_r_0_coord.tex out/009_r_0_10300000_L.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/009_r_0_10300000_L" "out/008_r_0_coord" 1
+out/009_r_0_10300000_K.pdf: out/008_r_0_coord.tex out/009_r_0_10300000_K.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/009_r_0_10300000_K" "out/008_r_0_coord" 1
+out/009_r_0_10300000_R.pdf: out/008_r_0_coord.tex out/009_r_0_10300000_R.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/009_r_0_10300000_R" "out/008_r_0_coord" 1
+out/011_r_0_11300100_L.pdf: out/010_r_0_mol_coord.tex out/011_r_0_11300100_L.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/011_r_0_11300100_L" "out/010_r_0_mol_coord" 1
+out/011_r_0_11300100_K.pdf: out/010_r_0_mol_coord.tex out/011_r_0_11300100_K.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/011_r_0_11300100_K" "out/010_r_0_mol_coord" 1
+out/011_r_0_11300100_R.pdf: out/010_r_0_mol_coord.tex out/011_r_0_11300100_R.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/011_r_0_11300100_R" "out/010_r_0_mol_coord" 1
+out/014_r_1_10300000_L.pdf: out/013_r_1_coord.tex out/014_r_1_10300000_L.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/014_r_1_10300000_L" "out/013_r_1_coord" 1
+out/014_r_1_10300000_K.pdf: out/013_r_1_coord.tex out/014_r_1_10300000_K.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/014_r_1_10300000_K" "out/013_r_1_coord" 1
+out/014_r_1_10300000_R.pdf: out/013_r_1_coord.tex out/014_r_1_10300000_R.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/014_r_1_10300000_R" "out/013_r_1_coord" 1
+out/016_r_1_11300100_L.pdf: out/015_r_1_mol_coord.tex out/016_r_1_11300100_L.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/016_r_1_11300100_L" "out/015_r_1_mol_coord" 1
+out/016_r_1_11300100_K.pdf: out/015_r_1_mol_coord.tex out/016_r_1_11300100_K.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/016_r_1_11300100_K" "out/015_r_1_mol_coord" 1
+out/016_r_1_11300100_R.pdf: out/015_r_1_mol_coord.tex out/016_r_1_11300100_R.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/016_r_1_11300100_R" "out/015_r_1_mol_coord" 1
+out/019_r_2_10300000_L.pdf: out/018_r_2_coord.tex out/019_r_2_10300000_L.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/019_r_2_10300000_L" "out/018_r_2_coord" 1
+out/019_r_2_10300000_K.pdf: out/018_r_2_coord.tex out/019_r_2_10300000_K.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/019_r_2_10300000_K" "out/018_r_2_coord" 1
+out/019_r_2_10300000_R.pdf: out/018_r_2_coord.tex out/019_r_2_10300000_R.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/019_r_2_10300000_R" "out/018_r_2_coord" 1
+out/021_r_2_11300100_L.pdf: out/020_r_2_mol_coord.tex out/021_r_2_11300100_L.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/021_r_2_11300100_L" "out/020_r_2_mol_coord" 1
+out/021_r_2_11300100_K.pdf: out/020_r_2_mol_coord.tex out/021_r_2_11300100_K.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/021_r_2_11300100_K" "out/020_r_2_mol_coord" 1
+out/021_r_2_11300100_R.pdf: out/020_r_2_mol_coord.tex out/021_r_2_11300100_R.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/021_r_2_11300100_R" "out/020_r_2_mol_coord" 1
+out/024_r_3_10300000_L.pdf: out/023_r_3_coord.tex out/024_r_3_10300000_L.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/024_r_3_10300000_L" "out/023_r_3_coord" 1
+out/024_r_3_10300000_K.pdf: out/023_r_3_coord.tex out/024_r_3_10300000_K.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/024_r_3_10300000_K" "out/023_r_3_coord" 1
+out/024_r_3_10300000_R.pdf: out/023_r_3_coord.tex out/024_r_3_10300000_R.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/024_r_3_10300000_R" "out/023_r_3_coord" 1
+out/026_r_3_11300100_L.pdf: out/025_r_3_mol_coord.tex out/026_r_3_11300100_L.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/026_r_3_11300100_L" "out/025_r_3_mol_coord" 1
+out/026_r_3_11300100_K.pdf: out/025_r_3_mol_coord.tex out/026_r_3_11300100_K.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/026_r_3_11300100_K" "out/025_r_3_mol_coord" 1
+out/026_r_3_11300100_R.pdf: out/025_r_3_mol_coord.tex out/026_r_3_11300100_R.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/026_r_3_11300100_R" "out/025_r_3_mol_coord" 1
+out/029_r_4_10300000_L.pdf: out/028_r_4_coord.tex out/029_r_4_10300000_L.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/029_r_4_10300000_L" "out/028_r_4_coord" 1
+out/029_r_4_10300000_K.pdf: out/028_r_4_coord.tex out/029_r_4_10300000_K.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/029_r_4_10300000_K" "out/028_r_4_coord" 1
+out/029_r_4_10300000_R.pdf: out/028_r_4_coord.tex out/029_r_4_10300000_R.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/029_r_4_10300000_R" "out/028_r_4_coord" 1
+out/031_r_4_11300100_L.pdf: out/030_r_4_mol_coord.tex out/031_r_4_11300100_L.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/031_r_4_11300100_L" "out/030_r_4_mol_coord" 1
+out/031_r_4_11300100_K.pdf: out/030_r_4_mol_coord.tex out/031_r_4_11300100_K.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/031_r_4_11300100_K" "out/030_r_4_mol_coord" 1
+out/031_r_4_11300100_R.pdf: out/030_r_4_mol_coord.tex out/031_r_4_11300100_R.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/031_r_4_11300100_R" "out/030_r_4_mol_coord" 1
+out/033_dg_0_10100_coord.tex:
+	mod_post --mode coordsFromGV dgHyper "out/033_dg_0_10100" 
+out/033_dg_0_10100.plain: out/033_dg_0_10100_coord.tex
+	mod_post --mode coordsFromGV dgHyper "out/033_dg_0_10100" 
+out/034_dg_0_10100.pdf: out/033_dg_0_10100_coord.tex out/034_dg_0_10100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/034_dg_0_10100" "out/033_dg_0_10100_coord" 1
+out/036_g_2_10300000.pdf: out/035_g_2_coord.tex out/036_g_2_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/036_g_2_10300000" "out/035_g_2_coord" 1
+out/038_g_2_11310100.pdf: out/037_g_2_mol_coord.tex out/038_g_2_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/038_g_2_11310100" "out/037_g_2_mol_coord" 1
+out/040_g_20_10300000.pdf: out/039_g_20_coord.tex out/040_g_20_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/040_g_20_10300000" "out/039_g_20_coord" 1
+out/042_g_20_11310100.pdf: out/041_g_20_mol_coord.tex out/042_g_20_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/042_g_20_11310100" "out/041_g_20_mol_coord" 1
+out/044_g_22_10300000.pdf: out/043_g_22_coord.tex out/044_g_22_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/044_g_22_10300000" "out/043_g_22_coord" 1
+out/046_g_22_11310100.pdf: out/045_g_22_mol_coord.tex out/046_g_22_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/046_g_22_11310100" "out/045_g_22_mol_coord" 1
+out/048_g_25_10300000.pdf: out/047_g_25_coord.tex out/048_g_25_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/048_g_25_10300000" "out/047_g_25_coord" 1
+out/050_g_25_11310100.pdf: out/049_g_25_mol_coord.tex out/050_g_25_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/050_g_25_11310100" "out/049_g_25_mol_coord" 1
+out/052_g_27_10300000.pdf: out/051_g_27_coord.tex out/052_g_27_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/052_g_27_10300000" "out/051_g_27_coord" 1
+out/054_g_27_11310100.pdf: out/053_g_27_mol_coord.tex out/054_g_27_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/054_g_27_11310100" "out/053_g_27_mol_coord" 1
+out/056_g_29_10300000.pdf: out/055_g_29_coord.tex out/056_g_29_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/056_g_29_10300000" "out/055_g_29_coord" 1
+out/058_g_29_11310100.pdf: out/057_g_29_mol_coord.tex out/058_g_29_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/058_g_29_11310100" "out/057_g_29_mol_coord" 1
+out/060_g_34_10300000.pdf: out/059_g_34_coord.tex out/060_g_34_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/060_g_34_10300000" "out/059_g_34_coord" 1
+out/062_g_34_11310100.pdf: out/061_g_34_mol_coord.tex out/062_g_34_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/062_g_34_11310100" "out/061_g_34_mol_coord" 1
+out/064_g_35_10300000.pdf: out/063_g_35_coord.tex out/064_g_35_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/064_g_35_10300000" "out/063_g_35_coord" 1
+out/066_g_35_11310100.pdf: out/065_g_35_mol_coord.tex out/066_g_35_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/066_g_35_11310100" "out/065_g_35_mol_coord" 1
+out/068_g_36_10300000.pdf: out/067_g_36_coord.tex out/068_g_36_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/068_g_36_10300000" "out/067_g_36_coord" 1
+out/070_g_36_11310100.pdf: out/069_g_36_mol_coord.tex out/070_g_36_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/070_g_36_11310100" "out/069_g_36_mol_coord" 1
+out/072_g_40_10300000.pdf: out/071_g_40_coord.tex out/072_g_40_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/072_g_40_10300000" "out/071_g_40_coord" 1
+out/074_g_40_11310100.pdf: out/073_g_40_mol_coord.tex out/074_g_40_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/074_g_40_11310100" "out/073_g_40_mol_coord" 1
+out/076_g_44_10300000.pdf: out/075_g_44_coord.tex out/076_g_44_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/076_g_44_10300000" "out/075_g_44_coord" 1
+out/078_g_44_11310100.pdf: out/077_g_44_mol_coord.tex out/078_g_44_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/078_g_44_11310100" "out/077_g_44_mol_coord" 1
+out/080_g_47_10300000.pdf: out/079_g_47_coord.tex out/080_g_47_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/080_g_47_10300000" "out/079_g_47_coord" 1
+out/082_g_47_11310100.pdf: out/081_g_47_mol_coord.tex out/082_g_47_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/082_g_47_11310100" "out/081_g_47_mol_coord" 1
+out/084_g_50_10300000.pdf: out/083_g_50_coord.tex out/084_g_50_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/084_g_50_10300000" "out/083_g_50_coord" 1
+out/086_g_50_11310100.pdf: out/085_g_50_mol_coord.tex out/086_g_50_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/086_g_50_11310100" "out/085_g_50_mol_coord" 1
+out/088_g_52_10300000.pdf: out/087_g_52_coord.tex out/088_g_52_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/088_g_52_10300000" "out/087_g_52_coord" 1
+out/090_g_52_11310100.pdf: out/089_g_52_mol_coord.tex out/090_g_52_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/090_g_52_11310100" "out/089_g_52_mol_coord" 1
+out/092_g_58_10300000.pdf: out/091_g_58_coord.tex out/092_g_58_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/092_g_58_10300000" "out/091_g_58_coord" 1
+out/094_g_58_11310100.pdf: out/093_g_58_mol_coord.tex out/094_g_58_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/094_g_58_11310100" "out/093_g_58_mol_coord" 1
+out/096_g_70_10300000.pdf: out/095_g_70_coord.tex out/096_g_70_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/096_g_70_10300000" "out/095_g_70_coord" 1
+out/098_g_70_11310100.pdf: out/097_g_70_mol_coord.tex out/098_g_70_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/098_g_70_11310100" "out/097_g_70_mol_coord" 1
+out/100_g_72_10300000.pdf: out/099_g_72_coord.tex out/100_g_72_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/100_g_72_10300000" "out/099_g_72_coord" 1
+out/102_g_72_11310100.pdf: out/101_g_72_mol_coord.tex out/102_g_72_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/102_g_72_11310100" "out/101_g_72_mol_coord" 1
+out/104_g_75_10300000.pdf: out/103_g_75_coord.tex out/104_g_75_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/104_g_75_10300000" "out/103_g_75_coord" 1
+out/106_g_75_11310100.pdf: out/105_g_75_mol_coord.tex out/106_g_75_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/106_g_75_11310100" "out/105_g_75_mol_coord" 1
+out/108_g_76_10300000.pdf: out/107_g_76_coord.tex out/108_g_76_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/108_g_76_10300000" "out/107_g_76_coord" 1
+out/110_g_76_11310100.pdf: out/109_g_76_mol_coord.tex out/110_g_76_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/110_g_76_11310100" "out/109_g_76_mol_coord" 1
+out/112_g_78_10300000.pdf: out/111_g_78_coord.tex out/112_g_78_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/112_g_78_10300000" "out/111_g_78_coord" 1
+out/114_g_78_11310100.pdf: out/113_g_78_mol_coord.tex out/114_g_78_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/114_g_78_11310100" "out/113_g_78_mol_coord" 1
+out/116_g_82_10300000.pdf: out/115_g_82_coord.tex out/116_g_82_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/116_g_82_10300000" "out/115_g_82_coord" 1
+out/118_g_82_11310100.pdf: out/117_g_82_mol_coord.tex out/118_g_82_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/118_g_82_11310100" "out/117_g_82_mol_coord" 1
+out/120_g_83_10300000.pdf: out/119_g_83_coord.tex out/120_g_83_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/120_g_83_10300000" "out/119_g_83_coord" 1
+out/122_g_83_11310100.pdf: out/121_g_83_mol_coord.tex out/122_g_83_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/122_g_83_11310100" "out/121_g_83_mol_coord" 1
+out/124_g_86_10300000.pdf: out/123_g_86_coord.tex out/124_g_86_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/124_g_86_10300000" "out/123_g_86_coord" 1
+out/126_g_86_11310100.pdf: out/125_g_86_mol_coord.tex out/126_g_86_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/126_g_86_11310100" "out/125_g_86_mol_coord" 1
+out/128_g_88_10300000.pdf: out/127_g_88_coord.tex out/128_g_88_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/128_g_88_10300000" "out/127_g_88_coord" 1
+out/130_g_88_11310100.pdf: out/129_g_88_mol_coord.tex out/130_g_88_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/130_g_88_11310100" "out/129_g_88_mol_coord" 1
+out/132_g_94_10300000.pdf: out/131_g_94_coord.tex out/132_g_94_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/132_g_94_10300000" "out/131_g_94_coord" 1
+out/134_g_94_11310100.pdf: out/133_g_94_mol_coord.tex out/134_g_94_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/134_g_94_11310100" "out/133_g_94_mol_coord" 1
+out/136_g_100_10300000.pdf: out/135_g_100_coord.tex out/136_g_100_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/136_g_100_10300000" "out/135_g_100_coord" 1
+out/138_g_100_11310100.pdf: out/137_g_100_mol_coord.tex out/138_g_100_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/138_g_100_11310100" "out/137_g_100_mol_coord" 1
+out/140_g_102_10300000.pdf: out/139_g_102_coord.tex out/140_g_102_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/140_g_102_10300000" "out/139_g_102_coord" 1
+out/142_g_102_11310100.pdf: out/141_g_102_mol_coord.tex out/142_g_102_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/142_g_102_11310100" "out/141_g_102_mol_coord" 1
+out/144_g_105_10300000.pdf: out/143_g_105_coord.tex out/144_g_105_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/144_g_105_10300000" "out/143_g_105_coord" 1
+out/146_g_105_11310100.pdf: out/145_g_105_mol_coord.tex out/146_g_105_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/146_g_105_11310100" "out/145_g_105_mol_coord" 1
+out/148_g_107_10300000.pdf: out/147_g_107_coord.tex out/148_g_107_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/148_g_107_10300000" "out/147_g_107_coord" 1
+out/150_g_107_11310100.pdf: out/149_g_107_mol_coord.tex out/150_g_107_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/150_g_107_11310100" "out/149_g_107_mol_coord" 1
+out/152_g_108_10300000.pdf: out/151_g_108_coord.tex out/152_g_108_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/152_g_108_10300000" "out/151_g_108_coord" 1
+out/154_g_108_11310100.pdf: out/153_g_108_mol_coord.tex out/154_g_108_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/154_g_108_11310100" "out/153_g_108_mol_coord" 1
+out/156_g_114_10300000.pdf: out/155_g_114_coord.tex out/156_g_114_10300000.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/156_g_114_10300000" "out/155_g_114_coord" 1
+out/158_g_114_11310100.pdf: out/157_g_114_mol_coord.tex out/158_g_114_11310100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/158_g_114_11310100" "out/157_g_114_mol_coord" 1
+out/159_dg_1_10100_coord.tex:
+	mod_post --mode coordsFromGV dgHyper "out/159_dg_1_10100" 
+out/159_dg_1_10100.plain: out/159_dg_1_10100_coord.tex
+	mod_post --mode coordsFromGV dgHyper "out/159_dg_1_10100" 
+out/160_dg_1_10100.pdf: out/159_dg_1_10100_coord.tex out/160_dg_1_10100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/160_dg_1_10100" "out/159_dg_1_10100_coord" 1
+out/164_g_1_11311100.pdf: out/006_g_1_mol_coord.tex out/164_g_1_11311100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/164_g_1_11311100" "out/006_g_1_mol_coord" 1
+out/164_g_1_11311100.svg: out/164_g_1_11311100.pdf
+	mod_post --mode pdfToSvg "out/164_g_1_11311100" "out/164_g_1_11311100"
+out/165_g_52_11311100.pdf: out/089_g_52_mol_coord.tex out/165_g_52_11311100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/165_g_52_11311100" "out/089_g_52_mol_coord" 1
+out/165_g_52_11311100.svg: out/165_g_52_11311100.pdf
+	mod_post --mode pdfToSvg "out/165_g_52_11311100" "out/165_g_52_11311100"
+out/166_g_88_11311100.pdf: out/129_g_88_mol_coord.tex out/166_g_88_11311100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/166_g_88_11311100" "out/129_g_88_mol_coord" 1
+out/166_g_88_11311100.svg: out/166_g_88_11311100.pdf
+	mod_post --mode pdfToSvg "out/166_g_88_11311100" "out/166_g_88_11311100"
+out/167_g_108_11311100.pdf: out/153_g_108_mol_coord.tex out/167_g_108_11311100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/167_g_108_11311100" "out/153_g_108_mol_coord" 1
+out/167_g_108_11311100.svg: out/167_g_108_11311100.pdf
+	mod_post --mode pdfToSvg "out/167_g_108_11311100" "out/167_g_108_11311100"
+out/168_g_0_11311100.pdf: out/002_g_0_mol_coord.tex out/168_g_0_11311100.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/168_g_0_11311100" "out/002_g_0_mol_coord" 1
+out/168_g_0_11311100.svg: out/168_g_0_11311100.pdf
+	mod_post --mode pdfToSvg "out/168_g_0_11311100" "out/168_g_0_11311100"
+out/163_dg_1_11100_f_0_0_filt_coord.tex: out/164_g_1_11311100.svg out/165_g_52_11311100.svg out/166_g_88_11311100.svg out/167_g_108_11311100.svg out/168_g_0_11311100.svg
+	mod_post --mode coordsFromGV dgHyper "out/163_dg_1_11100_f_0_0_filt" 
+out/163_dg_1_11100_f_0_0_filt.plain: out/163_dg_1_11100_f_0_0_filt_coord.tex out/164_g_1_11311100.svg out/165_g_52_11311100.svg out/166_g_88_11311100.svg out/167_g_108_11311100.svg out/168_g_0_11311100.svg
+	mod_post --mode coordsFromGV dgHyper "out/163_dg_1_11100_f_0_0_filt" 
+out/169_dg_1_11100_f_0_0_filt.pdf: out/163_dg_1_11100_f_0_0_filt_coord.tex out/169_dg_1_11100_f_0_0_filt.tex out/commonPreamble.fmt
+	mod_post --mode compileTikz "out/169_dg_1_11100_f_0_0_filt" "out/163_dg_1_11100_f_0_0_filt_coord" 1

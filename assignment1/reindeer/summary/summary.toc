@@ -1,0 +1,12 @@
+\babel@toc {english}{}
+\contentsline {subsection}{\numberline {0.0.1}\texttt {g\_\{0\}}}{2}{subsection.0.0.1}%
+\contentsline {subsection}{\numberline {0.0.2}\texttt {g\_\{1\}}}{2}{subsection.0.0.2}%
+\contentsline {subsection}{\numberline {0.0.3}Jump}{2}{subsection.0.0.3}%
+\contentsline {subsection}{\numberline {0.0.4}Move}{3}{subsection.0.0.4}%
+\contentsline {subsection}{\numberline {0.0.5}DG Hyper, \texttt {dg\_0}}{3}{subsection.0.0.5}%
+\contentsline {subsection}{\numberline {0.0.6}Solution 0}{4}{subsection.0.0.6}%
+\contentsline {subsubsection}{Overall Data}{4}{section*.2}%
+\contentsline {subsubsection}{Filtered Graph}{5}{section*.3}%
+\contentsline {subsection}{\numberline {0.0.7}Solution 1}{6}{subsection.0.0.7}%
+\contentsline {subsubsection}{Overall Data}{6}{section*.4}%
+\contentsline {subsubsection}{Filtered Graph}{7}{section*.5}%

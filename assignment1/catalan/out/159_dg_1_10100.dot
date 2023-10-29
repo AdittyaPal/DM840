@@ -1,0 +1,20 @@
+digraph g {
+// id = 0, graphName = Start
+"0-0" [ shape=ellipse label="Start" ];
+// id = 1, graphName = p_{0,13}
+"1-0" [ shape=ellipse label="p_{0,13}" ];
+// id = 3, graphName = p_{0,23}
+"3-0" [ shape=ellipse label="p_{0,23}" ];
+// id = 4, graphName = p_{0,29}
+"4-0" [ shape=ellipse label="p_{0,29}" ];
+// id = 6, graphName = Goal
+"6-0" [ shape=ellipse label="Goal" ];
+// id = 2{ 'Start' }, { 'p_{0,13}' }
+"0-0" -> "1-0" [ label="" ];
+// id = 5{ 'p_{0,23}' }, { 'p_{0,29}' }
+"3-0" -> "4-0" [ label="" ];
+// id = 7{ 'p_{0,29}' }, { 'Goal' }
+"4-0" -> "6-0" [ label="" ];
+// id = 8{ 'p_{0,13}' }, { 'p_{0,23}' }
+"1-0" -> "3-0" [ label="" ];
+}

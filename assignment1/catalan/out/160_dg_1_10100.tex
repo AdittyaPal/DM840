@@ -1,0 +1,21 @@
+\begin{tikzpicture}[remember picture, scale=\modDGHyperScale]
+\input{\modInputPrefix/out/159_dg_1_10100_coord.tex}
+% id = 0, graphName = Start
+\node[modStyleDGHyperVertex, at=(v-coord-0-0)] (v-0-0) {{$\mathrm{Start}$}};
+% id = 1, graphName = p_{0,13}
+\node[modStyleDGHyperVertex, at=(v-coord-1-0)] (v-1-0) {{$\mathrm{p_{0,13}}$}};
+% id = 3, graphName = p_{0,23}
+\node[modStyleDGHyperVertex, at=(v-coord-3-0)] (v-3-0) {{$\mathrm{p_{0,23}}$}};
+% id = 4, graphName = p_{0,29}
+\node[modStyleDGHyperVertex, at=(v-coord-4-0)] (v-4-0) {{$\mathrm{p_{0,29}}$}};
+% id = 6, graphName = Goal
+\node[modStyleDGHyperVertex, at=(v-coord-6-0)] (v-6-0) {{$\mathrm{Goal}$}};
+% id = 2{ 'Start' }, { 'p_{0,13}' }
+\path[modStyleDGHyperConnector] (v-0-0) to node[auto, swap] {} (v-1-0);
+% id = 5{ 'p_{0,23}' }, { 'p_{0,29}' }
+\path[modStyleDGHyperConnector] (v-3-0) to node[auto, swap] {} (v-4-0);
+% id = 7{ 'p_{0,29}' }, { 'Goal' }
+\path[modStyleDGHyperConnector] (v-4-0) to node[auto, swap] {} (v-6-0);
+% id = 8{ 'p_{0,13}' }, { 'p_{0,23}' }
+\path[modStyleDGHyperConnector] (v-1-0) to node[auto, swap] {} (v-3-0);
+\end{tikzpicture}%

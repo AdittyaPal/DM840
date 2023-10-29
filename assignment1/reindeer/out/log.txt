@@ -1,0 +1,175 @@
+Running Python Interpreter -----------------------------------------
+Executing code from 'reindeer.py'
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 4 graphs.
+  Round 2:
+  Round 2: Result subset has 4 graphs.
+  Round 3:
+  Round 3: Result subset has 5 graphs.
+  Round 4:
+  Round 4: Result subset has 4 graphs.
+  Round 5:
+  Round 5: Result subset has 8 graphs.
+  Round 6:
+  Round 6: Result subset has 12 graphs.
+  Round 7:
+  Round 7: Result subset has 13 graphs.
+  Round 8:
+  Round 8: Result subset has 17 graphs.
+  Round 9:
+  Round 9: Result subset has 14 graphs.
+  Round 10:
+  Round 10: Result subset has 14 graphs.
+  Round 11:
+  Round 11: Result subset has 15 graphs.
+  Round 12:
+  Round 12: Result subset has 11 graphs.
+  Round 13:
+  Round 13: Result subset has 10 graphs.
+  Round 14:
+  Round 14: Result subset has 3 graphs.
+  Round 15:
+  Round 15: Result subset has 5 graphs.
+  Round 16:
+  Round 16: Result subset has 0 graphs.
+WARNING: Operator (.) on flow variable specifiers is deprecated. Use operator [.] instead. Use config.common.ignoreDeprecation = False to make this an exception.
+WARNING: setSolverEnumerateBy() on a flow model is partially deprecated and removed. Use addEnumerationVar(), addTransitEnumeration(), and arguments to calc() instead. Use config.common.ignoreDeprecation = False to make this an exception.
+WARNING: calc() on a flow model is deprecated. Use findSolutions() instead. Use config.common.ignoreDeprecation = False to make this an exception.
+Calc: using settings from deprecated setSolverEnumerateBy
+	maxNumSolutions = 1073741824
+	added transitEnumeration =
+Solver: Enumeration by variable set (720 variables)
+================================================================================
+Solver:  non-fixed enumeration vars: 442
+Base	#exploded transit edges	2500
+Base	#exploded transit edges no empty	2500
+Base	#transit edges, no opt	2500
+Base	#fixed variables	440
+Flow	Adding user variables
+Flow	Setting objective function
+Flow	Adding user constraints
+FlowBase	model created
+Enumerating 1073741824 solutions
+Solver:       Calling ILP solver (call #1)
+CPXPARAM_TimeLimit                               1073741824
+CPXPARAM_Threads                                 1
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+CPXPARAM_Emphasis_MIP                            2
+Tried aggregator 2 times.
+MIP Presolve eliminated 1715 rows and 1989 columns.
+MIP Presolve modified 10 coefficients.
+Aggregator did 439 substitutions.
+Reduced MIP has 2647 rows, 2132 columns, and 7845 nonzeros.
+Reduced MIP has 806 binaries, 1326 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (8.93 ticks)
+Probing fixed 0 vars, tightened 8 bounds.
+Probing time = 0.01 sec. (4.70 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 284 rows and 122 columns.
+Reduced MIP has 2363 rows, 2010 columns, and 7237 nonzeros.
+Reduced MIP has 684 binaries, 1326 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (7.78 ticks)
+Probing time = 0.01 sec. (2.52 ticks)
+Clique table members: 1704.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.01 sec. (9.68 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0     0      integral     0       16.0000       16.0000      149    0.00%
+Elapsed time = 0.09 sec. (57.73 ticks, tree = 0.00 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.09 sec. (57.93 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.09 sec. (57.93 ticks)
+Solver:       ILP solver done (call #1)
+Starting enumeration of solutions with value 16
+            Nodes                  Solutions     
+----------------------------- -------------------
+   #Total     #Open  #Pending    #Total #Accepted   #Solves Obj. value  Time (s)
+        2         1         0         1         1         1         16         0
+     1181       434        14         2         2        28         16         1
+     2060       845        38         2         2        64         16         3
+     2060       816        64         2         2        93         16         5
+     2060       781        91         2         2       128         16         7
+     2060       712       123         2         2       197         16         9
+     2060       431       168         2         2       478         16        11
+     2060       407       192         2         2       502         16        13
+     2060       378       218         2         2       531         16        15
+     2060       336       247         2         2       573         16        17
+     2060       256       284         2         2       653         16        19
+Starting enumeration of solutions with value 17 = 16 + 1
+     2061         1       313         3         3       909         17        21
+Enumeration stopped due to softAbsGap. Obj = 17 > 16 + 0
+Flow	num variables	5000
+Enumeration by variable set (720 variables)
+============================================================
+AbstractSolver:  non-fixed enumeration vars: 442
+Solving root node.
+CPXPARAM_TimeLimit                               1073741824
+CPXPARAM_Threads                                 1
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+CPXPARAM_Emphasis_MIP                            2
+Tried aggregator 2 times.
+MIP Presolve eliminated 1715 rows and 2429 columns.
+MIP Presolve modified 10 coefficients.
+Aggregator did 439 substitutions.
+Reduced MIP has 2647 rows, 2132 columns, and 7845 nonzeros.
+Reduced MIP has 806 binaries, 1326 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (9.11 ticks)
+Probing fixed 0 vars, tightened 8 bounds.
+Probing time = 0.01 sec. (4.65 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 284 rows and 122 columns.
+Reduced MIP has 2363 rows, 2010 columns, and 7237 nonzeros.
+Reduced MIP has 684 binaries, 1326 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (7.83 ticks)
+Probing time = 0.00 sec. (2.51 ticks)
+Clique table members: 1704.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.01 sec. (9.42 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0     0      integral     0       16.0000       16.0000      139    0.00%
+Elapsed time = 0.09 sec. (57.53 ticks, tree = 0.00 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.09 sec. (57.74 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.09 sec. (57.74 ticks)
+      Nodes              Solutions     
+#Total    #Open     #Total    #Accepted  #Solves   Obj. value  Time (s)
+       1         1         0          0         1          16         0
+Enumeration of solutions with value 16
+    1179       445         1          1        33          16         2
+    2048       874         2          2        66          16         4
+    2048       874         2          2        90          16         6
+    2048       872         2          2       118          16         8
+    2048       842         2          2       176          16        10
+    2048       580         2          2       479          16        12
+    2048       579         2          2       503          16        14
+    2048       579         2          2       528          16        16
+    2048       567         2          2       565          16        18
+    2048       508         2          2       664          16        20
+Ending search (no more solutions)
+    2048         0         2          2       904         max        21
+Flow	num solutions	2
+Flow	Calculation done
+End of code from 'reindeer.py'
+
+real	0m43.495s
+user	0m43.217s
+sys	0m0.160s

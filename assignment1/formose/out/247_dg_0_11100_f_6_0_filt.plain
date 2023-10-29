@@ -1,0 +1,40 @@
+graph 1 11.885 12.696
+node "1-0" 7.2628 0.83687 2.4552 0.56961 Glycolaldehyde solid ellipse black lightgrey
+node "3-0" 10.444 3.243 2.2392 1.6892 random2 solid ellipse black lightgrey
+node "5-0" 10.766 6.3432 2.2392 1.6892 random4 solid ellipse black lightgrey
+node "6-0" 10.571 10.687 2.2392 1.6892 random5 solid ellipse black lightgrey
+node "12-0" 4.4303 11.979 2.082 1.4339 "g_{12}" solid ellipse black lightgrey
+node "13-0" 4.2449 9.5531 2.2392 1.6892 "g_{13}" solid ellipse black lightgrey
+node "63-0" 4.656 4.9012 2.2392 0.88388 "p_{0,13}" solid ellipse black lightgrey
+node "65-0" 6.3 7.8438 1.6106 1.4339 "p_{0,14}" solid ellipse black lightgrey
+node "66-0" 8.4798 7.4673 1.661 0.5 "p_{0,15}" solid ellipse black lightgrey
+node "113-0" 1.6597 6.5929 3.3195 1.7874 "p_{0,33}" solid ellipse black lightgrey
+node "131-0" 4.3178 0.96245 2.357 1.9249 "p_{0,41}" solid ellipse black lightgrey
+node "167-0" 1.6963 2.0786 3.3195 1.7874 "p_{0,49}" solid ellipse black lightgrey
+node "67-0" 7.556 11.282 1.1806 0.5 "f 1, r_{3}" solid box black lightgrey
+node "102-0" 6.6963 3.1659 1.1806 0.5 "f 2, r_{2}" solid box black lightgrey
+node "132-0" 7.7383 4.9735 1.1806 0.5 "f 1, r_{2}" solid box black lightgrey
+node "220-0" 3.9681 7.4775 1.1806 0.5 "f 1, r_{3}" solid box black lightgrey
+node "1-0-IOFlow" 10.204 0.48632 0.05 0.05 "" invis point black lightgrey
+node "12-0-IOFlow" 1.5409 11.011 0.05 0.05 "" invis point black lightgrey
+edge "1-0" "102-0" 4 7.1933 1.1225 7.0925 1.5368 6.9054 2.306 6.7918 2.7733 solid black
+edge "3-0" "5-0" 4 10.532 4.0861 10.572 4.4791 10.621 4.9492 10.664 5.3584 "f 1, r_{0}" 10.119 4.8264 solid black
+edge "3-0" "132-0" 4 9.5882 3.7906 9.148 4.072 8.6264 4.4055 8.2495 4.6466 solid black
+edge "5-0" "6-0" 4 10.728 7.1911 10.696 7.9102 10.649 8.9425 10.616 9.6989 "f 1, r_{1}" 10.193 8.5492 solid black
+edge "6-0" "67-0" 4 9.4871 10.901 9.0891 10.979 8.6483 11.066 8.2884 11.137 solid black
+edge "12-0" "12-0-IOFlow" 4 3.4922 11.665 2.8441 11.448 2.0403 11.179 1.7024 11.066 "f 1" 2.4654 11.469 solid black
+edge "13-0" "12-0" 4 4.3098 10.402 4.3275 10.634 4.3467 10.885 4.3645 11.118 "f 1, r_{1}" 3.858 10.864 solid black
+edge "63-0" "102-0" 4 5.1292 4.4987 5.4825 4.1983 5.9599 3.7922 6.2947 3.5075 solid black
+edge "65-0" "63-0" 4 5.9413 7.2017 5.6508 6.6816 5.2456 5.9564 4.9683 5.46 "f 2, r_{0}" 4.9756 6.435 solid black
+edge "66-0" "132-0" 4 8.4047 7.2144 8.2747 6.7775 8.0074 5.8786 7.8538 5.3619 solid black
+edge "113-0" "220-0" 4 3.0159 7.1126 3.0944 7.1426 3.1716 7.1722 3.246 7.2008 solid black
+edge "131-0" "167-0" 4 3.2704 1.4084 3.2248 1.4278 3.1788 1.4474 3.1326 1.4671 "f 1, r_{0}" 2.7223 1.5419 solid black
+edge "167-0" "113-0" 4 1.689 2.9759 1.683 3.719 1.6745 4.7757 1.6681 5.5551 "f 1, r_{1}" 1.1994 4.3697 solid black
+edge "67-0" "65-0" 4 7.4637 11.029 7.2841 10.537 6.8809 9.4337 6.5998 8.6642 solid black
+edge "67-0" "66-0" 4 7.6167 11.031 7.7739 10.382 8.1959 8.6398 8.3854 7.8572 solid black
+edge "102-0" "3-0" 4 7.2902 3.1781 7.7979 3.1886 8.5457 3.204 9.1857 3.2171 solid black
+edge "132-0" "131-0" 4 7.5243 4.7226 7.0465 4.1622 5.8728 2.7859 5.0859 1.8632 solid black
+edge "220-0" "13-0" 4 4.0015 7.7278 4.0298 7.9401 4.0723 8.259 4.114 8.5711 solid black
+edge "220-0" "65-0" 4 4.5626 7.5709 4.8062 7.6091 5.094 7.6544 5.3646 7.6969 solid black
+edge "1-0-IOFlow" "1-0" 4 10.178 0.48935 10.027 0.50746 9.221 0.60347 8.495 0.69 "f 2" 9.2048 0.69384 solid black
+stop

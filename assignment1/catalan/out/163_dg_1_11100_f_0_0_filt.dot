@@ -1,0 +1,26 @@
+digraph g {
+// id = 0, graphName = Start
+"0-0" [ shape=ellipse label="Start" image="out/164_g_1_11311100.svg" ];
+// id = 1, graphName = p_{0,13}
+"1-0" [ shape=ellipse label="p_{0,13}" image="out/165_g_52_11311100.svg" ];
+// id = 3, graphName = p_{0,23}
+"3-0" [ shape=ellipse label="p_{0,23}" image="out/166_g_88_11311100.svg" ];
+// id = 4, graphName = p_{0,29}
+"4-0" [ shape=ellipse label="p_{0,29}" image="out/167_g_108_11311100.svg" ];
+// id = 6, graphName = Goal
+"6-0" [ shape=ellipse label="Goal" image="out/168_g_0_11311100.svg" ];
+// id = 2{ 'Start' }, { 'p_{0,13}' }
+"0-0" -> "1-0" [ label="f 1, " ];
+// id = 5{ 'p_{0,23}' }, { 'p_{0,29}' }
+"3-0" -> "4-0" [ label="f 1, " ];
+// id = 7{ 'p_{0,29}' }, { 'Goal' }
+"4-0" -> "6-0" [ label="f 1, " ];
+// id = 8{ 'p_{0,13}' }, { 'p_{0,23}' }
+"1-0" -> "3-0" [ label="f 1, " ];
+// inFlow/outFlow, id = 0-0, graphName = Start, inFlow = 1, outFlow = 0
+"0-0-IOFlow" [ shape=point style=invis label="" ];
+"0-0-IOFlow" -> "0-0" [ label="f 1" ];
+// inFlow/outFlow, id = 6-0, graphName = Goal, inFlow = 0, outFlow = 1
+"6-0-IOFlow" [ shape=point style=invis label="" ];
+"6-0" -> "6-0-IOFlow" [ label="f 1" ];
+}

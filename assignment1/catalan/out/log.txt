@@ -1,0 +1,172 @@
+Running Python Interpreter -----------------------------------------
+Executing code from 'doIt.py'
+Executing code from 'rules.py'
+End of code from 'rules.py'
+Repeat, limit = 10
+  Round 1:
+    Repeat, limit = 2147483647
+      Round 1:
+      Round 1: Result subset has 1 graphs.
+      Round 2:
+      Round 2: Result subset has 1 graphs.
+    Repeat, limit = 2147483647
+      Round 1:
+      Round 1: Result subset has 2 graphs.
+      Round 2:
+      Round 2: Result subset has 3 graphs.
+      Round 3:
+      Round 3: Result subset has 3 graphs.
+      Round 4:
+      Round 4: Result subset has 2 graphs.
+      Round 5:
+      Round 5: Result subset has 1 graphs.
+      Round 6:
+      Round 6: Result subset has 1 graphs.
+    Repeat, limit = 2147483647
+      Round 1:
+      Round 1: Result subset has 1 graphs.
+      Round 2:
+      Round 2: Result subset has 1 graphs.
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+    Repeat, limit = 2147483647
+      Round 1:
+      Round 1: Result subset has 1 graphs.
+      Round 2:
+      Round 2: Result subset has 1 graphs.
+    Repeat, limit = 2147483647
+      Round 1:
+      Round 1: Result subset has 2 graphs.
+      Round 2:
+      Round 2: Result subset has 2 graphs.
+      Round 3:
+      Round 3: Result subset has 2 graphs.
+      Round 4:
+      Round 4: Result subset has 1 graphs.
+      Round 5:
+      Round 5: Result subset has 1 graphs.
+    Repeat, limit = 2147483647
+      Round 1:
+      Round 1: Result subset has 1 graphs.
+      Round 2:
+      Round 2: Result subset has 1 graphs.
+  Round 2: Result subset has 1 graphs.
+  Round 3:
+    Repeat, limit = 2147483647
+      Round 1:
+      Round 1: Result subset has 1 graphs.
+      Round 2:
+      Round 2: Result subset has 1 graphs.
+    Repeat, limit = 2147483647
+      Round 1:
+      Round 1: Result subset has 1 graphs.
+      Round 2:
+      Round 2: Result subset has 1 graphs.
+      Round 3:
+      Round 3: Result subset has 1 graphs.
+      Round 4:
+      Round 4: Result subset has 1 graphs.
+    Repeat, limit = 2147483647
+      Round 1:
+      Round 1: Result subset has 1 graphs.
+      Round 2:
+      Round 2: Result subset has 1 graphs.
+  Round 3: Result subset has 1 graphs.
+  Round 4:
+    Repeat, limit = 2147483647
+      Round 1:
+      Round 1: Result subset has 1 graphs.
+      Round 2:
+      Round 2: Result subset has 1 graphs.
+    Repeat, limit = 2147483647
+      Round 1:
+      Round 1: Result subset has 1 graphs.
+      Round 2:
+      Round 2: Result subset has 1 graphs.
+    Repeat, limit = 2147483647
+      Round 1:
+      Round 1: Result subset has 1 graphs.
+      Round 2:
+      Round 2: Result subset has 1 graphs.
+  Round 4: Result subset has 1 graphs.
+  Round 5:
+    Repeat, limit = 2147483647
+      Round 1:
+      Round 1: Result subset has 0 graphs.
+    Repeat, limit = 2147483647
+      Round 1:
+      Round 1: Result subset has 0 graphs.
+    Repeat, limit = 2147483647
+      Round 1:
+      Round 1: Result subset has 0 graphs.
+  Round 5: Result subset has 0 graphs.
+Real States finding done
+Solver: Enumeration by variable set (14 variables)
+================================================================================
+Solver:  non-fixed enumeration vars: 6
+Base	#exploded transit edges	5
+Base	#exploded transit edges no empty	5
+Base	#transit edges, no opt	16
+Base	#fixed variables	0
+Flow	Adding user variables
+Flow	Setting objective function
+Flow	Adding user constraints
+FlowBase	model created
+Enumerating 1 solutions
+Solver:       Calling ILP solver (call #1)
+CPXPARAM_TimeLimit                               1073741824
+CPXPARAM_Threads                                 1
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+CPXPARAM_Emphasis_MIP                            2
+Tried aggregator 1 time.
+MIP Presolve eliminated 89 rows and 58 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.05 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.06 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.06 ticks)
+Solver:       ILP solver done (call #1)
+Starting enumeration of solutions with value 5
+            Nodes                  Solutions     
+----------------------------- -------------------
+   #Total     #Open  #Pending    #Total #Accepted   #Solves Obj. value  Time (s)
+        2         1         0         1         1         1          5         0
+Flow	num variables	58
+Enumeration by variable set (14 variables)
+============================================================
+AbstractSolver:  non-fixed enumeration vars: 6
+Solving root node.
+CPXPARAM_TimeLimit                               1073741824
+CPXPARAM_Threads                                 1
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+CPXPARAM_Emphasis_MIP                            2
+Tried aggregator 1 time.
+MIP Presolve eliminated 89 rows and 58 columns.
+MIP Presolve modified 3 coefficients.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.05 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.06 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.06 ticks)
+      Nodes              Solutions     
+#Total    #Open     #Total    #Accepted  #Solves   Obj. value  Time (s)
+       1         1         0          0         1           5         0
+Enumeration of solutions with value 5
+Ending search (by user request)
+       1         0         1          1         2           5         0
+Flow	num solutions	1
+Flow	Calculation done
+WARNING: Check for solution mismatch skipped. Both the old and new collection is of size maxNumSolutions=1. But as they may be enumerated in different orders it is not generally possible to compare the solution collections.
+End of code from 'doIt.py'
+
+real	0m0.265s
+user	0m0.204s
+sys	0m0.043s
